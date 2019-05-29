@@ -10,7 +10,7 @@
 ## Turning the OEM mode on will use OEM fonts and
 ## settings instead of AliceOS's defaults.
 
-define aliceos.oem_mode = False
+define aliceos.oem_mode = True
 
 ## Write the OEM information here. This will be 
 ## displayed on the AliceOS Pisa under the provider
@@ -20,13 +20,13 @@ define aliceos.oem_mode = False
 ## it here.
 init -10 python:
     oem_info = """\
-OEM Name: 
-OEM Website: 
-OEM Support Email: 
+OEM Name: Project Alice
+OEM Website: {a="https://about.aliceos.app"}https://about.aliceos.app{/a}
+OEM Support Email: {a="mailto:hello@aliceos.app"}hello@aliceos.app{/a}
     """
 
     license = """\
-[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato. It is designed to be played only after the official game has been completed, and contains spoilers for the official game. Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe
+[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato. It is designed to be played only after the official game has been completed, and contains spoilers for the official game. Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe.
     """
 
 ##################################################
@@ -38,7 +38,7 @@ OEM Support Email:
 ## Resources/systemfont/OEM folder and match the
 ## font structure of AliceOS's fonts.
 
-define aliceos.oem_use_custom_font = False
+define aliceos.oem_use_custom_font = True
 
 ## Define the AliceOS OEM Colors here. This covers
 ## branding colors scaling from the 100 (lightest)
