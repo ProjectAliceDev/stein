@@ -3,6 +3,7 @@ label chapter_zero:
     scene bg residential_day
     with dissolve_scene_full
     play music t2
+    call chapter0_title
 
     s "Heeeeeeeyyy!!"
     "As usual, I see my best friend Sayori running towards me, oblivious to the attention she's drawing to herself."
