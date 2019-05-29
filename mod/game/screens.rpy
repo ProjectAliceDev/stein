@@ -211,7 +211,7 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    color gui.accent_color
+    color '#ffffff'
     font gui.name_font
     size gui.name_text_size
     xalign gui.name_xalign
@@ -535,8 +535,8 @@ screen main_menu():
     if gui.show_name:
 
         vbox:
-            text "[config.name!t]":
-                style "main_menu_title"
+            # text "[config.name!t]":
+            #     style "main_menu_title"
 
             text "[config.version]":
                 style "main_menu_version"
@@ -555,9 +555,9 @@ screen main_menu():
         else:
             add "menu_art_s"
     add "menu_particles"
-    if persistent.playthrough != 4:
-        add "menu_art_m"
-        add "menu_fade"
+    # if persistent.playthrough != 4:
+    #     add "menu_art_m"
+    #     add "menu_fade"
 
     key "K_ESCAPE" action Quit(confirm=False)
 
