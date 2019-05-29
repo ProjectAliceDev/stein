@@ -12,9 +12,12 @@ label start:
 
     # girl names
     $ s_name = "Sayori"
-    $ m_name = "Monika"
+    $ m_name = "???"
     $ n_name = "Natsuki"
     $ y_name = "Yuri"
+    $ a_name = "???"
+    $ cr_name = "???"
+    $ sy_name = "???"
 
     $ quick_menu = True
     $ style.say_dialogue = style.normal
@@ -22,11 +25,9 @@ label start:
     $ allow_skipping = True
     $ config.allow_skipping = True
 
-
-    if persistent.example_seen:
-        call tutorial_selection
-    else:
-        call example_chapter from _call_example_chapter
+    if not persistent.saw_title:
+        call title
+    call chapter_zero
 
     return
 

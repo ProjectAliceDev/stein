@@ -1304,6 +1304,9 @@ define s = DynamicCharacter('s_name', image='sayori', what_prefix='"', what_suff
 define m = DynamicCharacter('m_name', image='monika', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define n = DynamicCharacter('n_name', image='natsuki', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define y = DynamicCharacter('y_name', image='yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define sy = DynamicCharacter('sy_name', image='sayonika', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define a = DynamicCharacter('a_name', image='alice', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define cr = DynamicCharacter('cr_name', image='craig', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define ny = Character('Nat & Yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 
 define _dismiss_pause = config.developer

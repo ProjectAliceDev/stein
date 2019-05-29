@@ -555,9 +555,9 @@ screen main_menu():
         else:
             add "menu_art_s"
     add "menu_particles"
-    # if persistent.playthrough != 4:
-    #     add "menu_art_m"
-    #     add "menu_fade"
+    if persistent.playthrough != 4:
+        add "menu_art_m"
+        add "menu_fade"
 
     key "K_ESCAPE" action Quit(confirm=False)
 
