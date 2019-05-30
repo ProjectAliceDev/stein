@@ -26,7 +26,7 @@ OEM Support Email: {a="mailto:hello@aliceos.app"}hello@aliceos.app{/a}
     """
 
     license = """\
-[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato. It is designed to be played only after the official game has been completed, and contains spoilers for the official game. Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe.
+[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato or Joey Drew Studios and is not an official Bendy and the Ink Machine product. It is designed to be played only after the official game(s) has/have been completed, and contains spoilers for the official game(s). Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe.
     """
 
 ##################################################
