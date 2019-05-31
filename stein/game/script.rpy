@@ -12,7 +12,7 @@ label start:
 
     # girl names
     $ s_name = "Sayori"
-    $ m_name = "???"
+    $ m_name = glitchtext(12)
     $ n_name = "Natsuki"
     $ y_name = "Yuri"
     $ a_name = "???"
@@ -25,9 +25,18 @@ label start:
     $ allow_skipping = True
     $ config.allow_skipping = True
 
-    if not persistent.saw_title:
-        call title
-    call chapter_zero
+    if not persistent.playthrough == 1:
+        if not persistent.saw_title:
+            call title
+        call chapter_zero
+        call chapter_one
+        call end_overlay
+    else:
+        # call end_js_32
+        call ncredits
+        call end_overlay
+        call screen ThrowASError(glitchtext(32))
+        $ renpy.utter_restart()
 
     return
 

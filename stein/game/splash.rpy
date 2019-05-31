@@ -10,7 +10,7 @@ init -100 python:
 init python:
     menu_trans_time = 1
 
-    splash_message_default = "This game is an unofficial fan work, unaffiliated with Team Salvato."
+    splash_message_default = "This game is an unofficial fan work, unaffiliated with Team Salvato or Joey Drew Studios."
 
     splash_messages = [
         "Please support Doki Doki Literature Club.",
@@ -109,7 +109,7 @@ image menu_art_m_ghost:
 
 image menu_art_s_glitch:
     subpixel True
-    "gui/menu_art_s_break.png"
+    "mod_assets/images/menu/menu_art_sm.png"
     xcenter 470
     ycenter 600
     zoom 0.68
@@ -183,7 +183,7 @@ image intro:
     truecenter
     "white"
     0.5
-    "bg/splash.png" with Dissolve(0.5, alpha=True)
+    "mod_assets/images/bg/splash.png" with Dissolve(0.5, alpha=True)
     2.5
     "white" with Dissolve(0.5, alpha=True)
     0.5

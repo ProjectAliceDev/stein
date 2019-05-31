@@ -6,6 +6,9 @@ image subtitle = Text("A mod for Doki Doki Literature Club!", size=24)
 image chapter_one_header = Text("Chapter 1", size=24)
 image chapter_one_title = Text("Just Another Day", font="gui/font/RifficFree-Bold.ttf", size=84)
 
+image chapter_two_header = Text("Chapter 2", size=24)
+image chapter_two_title = Text("A Missing Checkpoint", font="gui/font/RifficFree-Bold.ttf", size=84)
+
 label title:
     stop music fadeout 2.0
     scene black
@@ -33,8 +36,21 @@ label chapter0_title:
     pause 0.5
     show chapter_one_title with dissolve:
         xalign 0.5
-        yalign 0.5
+        yalign 0.45
     pause 1.5
     hide chapter_one_header with dissolve
     hide chapter_one_title with dissolve
+    return
+
+label chapter1_title:
+    show chapter_two_header with dissolve:
+        xalign 0.5
+        yalign 0.3
+    pause 0.5
+    show chapter_two_title with dissolve:
+        xalign 0.5
+        yalign 0.45
+    pause 1.5
+    hide chapter_two_header with dissolve
+    hide chapter_two_title with dissolve
     return

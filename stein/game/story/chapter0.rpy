@@ -408,5 +408,27 @@ label chapter_zero:
     mc "Sayori!!!"
     show sayori at thide
     hide sayori
-    scene black with dissolve_scene_half
+    
+    stop music fadeout 1.0
+    scene black with fade
+    pause 1.5
+    scene bg bedroom_night with dissolve_scene_full
+    "I find myself unable to really sleep tonight."
+    "I know I promised Sayori that I wouldn't worry about anything, but I am definitely shaken."
+    "And, oddly enough, it has nothing to do with Alice."
+    "I look at my nightstand and take a sip from my water cup."
+    "The water runs down my throat like a soothing waterfall."
+    "I lie back down and stare at the ceiling."
+    "It's been so long since I've heard the name."
+    "{i}Monika...{/i}"
+    "None of us know how or why she disappeared."
+    "After the club festival, she kind of stop... showing up."
+    "Absent from school. Nowhere to be seen in town."
+    "We hadn't heard anything. I think people have stopped looking."
+    "Now it's October, almost three months since that day."
+    "It's been different with Sayori as president, but all of us aren't the same because she disappeared."
+    "And now here we are, talking about her again."
+    "Like as if her disappearance happened yesterday."
+    "I sigh, burying my face into my pillow."
+    "{i}This is going to be a long, long night...{/i}"
     return
