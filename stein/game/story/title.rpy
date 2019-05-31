@@ -3,11 +3,21 @@ image presents = Text("Project Alice presents", font="gui/font/Aller_Rg.ttf", si
 image title = Text("Forgotten", font="gui/font/RifficFree-Bold.ttf", size=128)
 image subtitle = Text("A mod for Doki Doki Literature Club!", size=24)
 
-image chapter_one_header = Text("Chapter 1", size=24)
-image chapter_one_title = Text("Just Another Day", font="gui/font/RifficFree-Bold.ttf", size=84)
+image chapter_header = ParameterizedText(font="gui/font/Aller_Rg.ttf", size=24)
+image chapter_title = ParameterizedText(font="gui/font/RifficFree-Bold.ttf", size=84)
 
-image chapter_two_header = Text("Chapter 2", size=24)
-image chapter_two_title = Text("A Missing Checkpoint", font="gui/font/RifficFree-Bold.ttf", size=84)
+label chapter_title(number=0, title="Chapter Title"):
+    show chapter_header "Chapter [number]" with dissolve:
+        xalign 0.5
+        yalign 0.3
+    pause 0.5
+    show chapter_title "[title]" with dissolve:
+        xalign 0.5
+        yalign 0.45
+    pause 1.5
+    hide chapter_one_header with dissolve
+    hide chapter_one_title with dissolve
+    return
 
 label title:
     stop music fadeout 2.0
@@ -27,30 +37,4 @@ label title:
     pause 2.0
     scene black with fade
     $ persistent.saw_title = True
-    return
-
-label chapter0_title:
-    show chapter_one_header with dissolve:
-        xalign 0.5
-        yalign 0.3
-    pause 0.5
-    show chapter_one_title with dissolve:
-        xalign 0.5
-        yalign 0.45
-    pause 1.5
-    hide chapter_one_header with dissolve
-    hide chapter_one_title with dissolve
-    return
-
-label chapter1_title:
-    show chapter_two_header with dissolve:
-        xalign 0.5
-        yalign 0.3
-    pause 0.5
-    show chapter_two_title with dissolve:
-        xalign 0.5
-        yalign 0.45
-    pause 1.5
-    hide chapter_two_header with dissolve
-    hide chapter_two_title with dissolve
     return

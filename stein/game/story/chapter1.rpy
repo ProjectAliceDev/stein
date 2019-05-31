@@ -1,7 +1,9 @@
 label chapter_one:
-    scene bg bedroom with dissolve_scene_full
+    scene bg bedroom 
+    with dissolve_scene_full
     play music t2
-    call chapter1_title
+    call chapter_title(2, "A Missing Checkpoint")
+
     "For a Saturday, things definitely could look better."
     "I look outside my window, watching the rain pour on the street."
     "Meanwhile, Sayori's doing some coloring in a notebook."
