@@ -34,6 +34,7 @@ label start:
         call ncredits
         call end_overlay
     else:
+        stop music
         call screen ThrowASError(glitchtext(32))
         $ renpy.utter_restart()
 

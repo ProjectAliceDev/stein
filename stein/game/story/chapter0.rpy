@@ -138,7 +138,7 @@ label chapter_zero:
     n "Didn't expect this guy to be staring at my skirt for so long before saying anything, though."
     mc "Wha-...{w=0.5} Natsuki!!!"
     show natsuki at f22
-    show yuri 2f at t21
+    show yuri 2e at t21
     n 4d "Relax, [player]! I was just joking."
     n 5d "I'm willing to wager that you were staring at the tray."
     show natsuki at t22
