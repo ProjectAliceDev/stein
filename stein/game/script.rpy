@@ -30,11 +30,10 @@ label start:
             call title
         call chapter_zero
         call chapter_one
-        call end_overlay
-    else:
-        # call end_js_32
+        call end_js_32
         call ncredits
         call end_overlay
+    else:
         call screen ThrowASError(glitchtext(32))
         $ renpy.utter_restart()
 
