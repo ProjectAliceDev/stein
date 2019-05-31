@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/ProjectAliceDev/stein.svg?branch=master)](https://travis-ci.com/ProjectAliceDev/stein) [![AliceOS 1.0.0beta2](https://img.shields.io/badge/aliceos-1.0.0beta2-yellow.svg)](https://github.com/ProjectAliceDev/aliceos) [![Sayonika Quickstart Template](https://img.shields.io/badge/quickstart--oss-1.0.2-orange.svg)](https://github.com/Sayo-nika/quickstart-oss) [![GitHub](https://img.shields.io/github/license/projectalicedev/stein.svg)](LICENSE)
 
+![Main menu](menu.png)
+
 Forgotten is a mod for **Doki Doki Literature Club!** (DDLC) created and maintained by the Project Alice team. Set after the events of DDLC, Sayori takes on the challenges of leading the literature club while the other members deal with Monika's sudden disappearance and the arrival of Sayonika, a cheerful classmate with a passion and craft in programming. However, when strange things start happening around campus and the neighborhood, it's up to the club, with the help of newly-arrived Alice Angel, to find out what's going on and where Monika disappeared to.
 
 ## License

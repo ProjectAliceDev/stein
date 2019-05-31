@@ -1,4 +1,4 @@
-image sayonika 1 = im.Composite((960, 960), (0, 0), "mod_assets/images/sayonika/1.png", (0, 0), "mod_assets/images/sayonika/[a-z]")
+image sayonika 1 = im.Composite((960, 960), (0, 0), "mod_assets/images/sayonika/1.png", (0, 0), "mod_assets/images/sayonika/a.png")
 image sayonika 2 = im.Composite((960, 960), (0, 0), "mod_assets/images/sayonika/2l.png", (0, 0), "mod_assets/images/sayonika/2r1.png", (0, 0), "mod_assets/images/sayonika/a.png")
 image sayonika 3 = im.Composite((960, 960), (0, 0), "mod_assets/images/sayonika/2l.png", (0, 0), "mod_assets/images/sayonika/2r2.png", (0, 0), "mod_assets/images/sayonika/a.png")
 image sayonika 4 = "mod_assets/images/sayonika/3a.png"
