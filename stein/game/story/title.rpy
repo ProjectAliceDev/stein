@@ -15,8 +15,8 @@ label chapter_title(number=0, title="Chapter Title"):
         xalign 0.5
         yalign 0.45
     pause 1.5
-    hide chapter_one_header with dissolve
-    hide chapter_one_title with dissolve
+    hide chapter_header with dissolve
+    hide chapter_title with dissolve
     return
 
 label title:
