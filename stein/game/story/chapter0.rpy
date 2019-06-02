@@ -123,7 +123,7 @@ label chapter_zero:
     n "How long have you been staring at me like that for?"
     mc "Long enough for you to not notice until now."
     n 2e "Apparently."
-    n "Now could you help me move these tables instead of staring at me like that?"
+    n "Now could you help me move these tables instead of staring at me like that, you dummy?"
     "Classic Natsuki."
     mc "Yeah, let's do that."
     show natsuki at thide
@@ -231,13 +231,13 @@ label chapter_zero:
     s "Alright, now that we're settled in, let's talk business."
     s "As you all already know, Sayonika is joining us today as our newest club member."
     s "I hope you show her the same love and respect as we have done for all of our members."
-    s "Sayonika, I hope you find yourself comfortable here. Feel free to explore; have fun!"
-    s "With that said, there are a few announcements and things of that nature I have to discuss with you all."
+    s 4r "Sayonika, I hope you find yourself comfortable here. Feel free to explore; have fun!"
+    s 1x "With that said, there are a few announcements and things of that nature I have to discuss with you all."
     s 2c "I'm sure you all know that the fall break is coming up soon, meaning that our own mini-festival is around the corner."
     s "I'd definitely would like to spend our next meeting to discuss what we want to do for that, so please make sure you come!"
-    s 2c "I wouldn't want to necessarily offend out previous president's work, but I would love to see something more fun and lighthearted than the club festival!"
+    s 3l "I wouldn't want to necessarily offend out previous president's work, but I would love to see something more fun and lighthearted than the club festival!"
     show sayonika 1f at t22
-    show sayori at t21
+    show sayori 1a at t21
     sy "... previous president?"
     s 2l "Oh, that's right..."
     s "Don't worry about it; I don't want to burden you with that."
@@ -329,12 +329,14 @@ label chapter_zero:
     s "Oh, hi there!"
     s "We were just finishing up our club meeting."
     "The woman steps forward, joining our group."
+    "Her halo-like ring in her hair bobs a bit as she walks towards us."
+    "I hadn't seen anything like it before..."
     show alice 1b at t32
     show sayori at t31
     show sayonika at t33
     a "My apologies, I hope I wasn't interrupting anything..."
     "Her golden eyes lock onto mine rather intensely."
-    "Her halo-like ring bobbed as she tilted her head to the side."
+    "Her halo-like ring bobbed again as she tilted her head to the side."
     a 1i "Have... have we met before?"
     mc "Not that I know of..."
     a "I swear I've seen you before somewhere."
@@ -406,6 +408,7 @@ label chapter_zero:
     mc "Promise."
     s 1q "Good. Now let's head to the deli real quick."
     mc "Sayori!!!"
+    s "Ehehe~"
     show sayori at thide
     hide sayori
     

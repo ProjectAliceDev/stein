@@ -197,7 +197,7 @@ label chapter_one:
     a "It's probably going to take a while before it gets reviewed."
     show sayonika at f31
     sy 1bh "Wow, you've patched that up real quick."
-    sy "Looks like you're going to have to wait for Mike's OK."
+    sy "Looks like you're going to have to wait for Phil's OK."
     sy "I don't imagine he'll take long, though."
     show sayori at f32
     show sayonika 1bd at t31
@@ -285,7 +285,7 @@ label chapter_one:
     a "Of course that's dangerous! How do you think I felt when I went through that?"
     show sayori 1bn at t32
     "Sayori fidgets with her thumbs."
-    a 1v "Mike, we're just trying to tell the story as it is. No frills."
+    a 1v "Phil, we're just trying to tell the story as it is. No frills."
     "I look down at the floor, pondering what Alice is talking about."
     a 1q "I'll.. I'll see what I can do about adding a checkpoint or something."
     a "You know how important this is to me, as well as Sayonika."
@@ -315,7 +315,7 @@ label chapter_one:
     play music t9
     sy 1br "Not really. This is a first."
     sy "Usually reviews are more successful and quick."
-    sy 1bo "I guess Mike saw some potential flaw or whatever."
+    sy 1bo "I guess Phil saw some potential flaw or whatever."
     sy "It's kind of a hard battle between keeping true to your own story and making it playable."
     sy 1br "Such a balance isn't easy, you know?"
     mc "I can imagine so."
