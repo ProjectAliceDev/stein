@@ -11,6 +11,7 @@ Campus background - yagamirai10
 MC house entrance, living room, alternate bedroom - Nuxill
 Apple Store background - Cyrke
 MC bedroom at night - Gyrosona
+Big classroom - Kimagure After (k-after.at.webry.info)
 
 > Note: If you plan to use the Apple Store background in your own mod, please consult Cyrke for permissions.
 

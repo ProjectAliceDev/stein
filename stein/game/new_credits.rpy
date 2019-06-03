@@ -21,7 +21,7 @@ label ncredits:
     call ncredit(desc="Written by", cont="Marquis Kurt")
     call ncredit(desc="Overseen by", cont="Marquis Kurt, My Angle Alice (Aine)")
     call ncredit(desc="Characters drawn by", cont="Noelia, Cyrke, Cylent Night")
-    call ncredit(desc="Backgrounds created by", cont="Cyrke, Gyrosona, Nuxill, yagamirai10")
+    call ncredit(desc="Backgrounds created by", cont="Cyrke, Gyrosona, Nuxill, yagamirai10, Kimagure After")
     call ncredit(desc="Reviewed by", cont="Dusk Ealain")
     call ncredit(desc="Managed in GitHub with", cont="My Angle Alice (Aine)")
     call ncredit(desc="AliceOS developed by", cont="Marquis Kurt, My Angle Alice (Aine), GanstaKingOfSA, abduelhamit")
