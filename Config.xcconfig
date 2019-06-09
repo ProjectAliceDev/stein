@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  Forgotten
+//
+//  Created by Marquis Kurt on 6/9/19.
+//  Copyright © 2019 Project Alice. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+RENPY_TOOL=/Users/marquiskurt/Applications/renpy-6.99.12.4-sdk/renpy.sh
+BUILD_ACTION=$(SRCROOT)/stein lint
+RUN_ACTION=$(SRCROOT)/stein

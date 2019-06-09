@@ -1,3 +1,4 @@
+# MARK: Chapter Two
 label chapter_two:
     stop music fadeout 1.5
     scene bg club_day
@@ -68,6 +69,7 @@ label chapter_two:
     hide sayonika
     "We leave the clubroom and head down to the big classroom."
 
+    # MARK: Natsuki and The Big Reveal
     scene bg corridor
     with wipeleft
     "We make it to the hallway where the big classroom is."
@@ -135,4 +137,6 @@ label chapter_two:
     sy "Freaking hell."
     sy "I take it that was Monika..."
     n "Y-yeah..."
+    n "Look, just don't tell {i}anyone{/i} that you saw this, okay?"
+    n "I-it's not like I'm trying to protect them here or anything..."
     return
