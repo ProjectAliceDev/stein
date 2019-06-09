@@ -1,10 +1,20 @@
 # Forgotten (Project Stein)
 
-[![Build Status](https://travis-ci.com/ProjectAliceDev/stein.svg?branch=master)](https://travis-ci.com/ProjectAliceDev/stein) [![AliceOS 1.0.0beta2](https://img.shields.io/badge/aliceos-1.0.0beta2-yellow.svg)](https://github.com/ProjectAliceDev/aliceos) [![Sayonika Quickstart Template](https://img.shields.io/badge/quickstart--oss-1.0.2-orange.svg)](https://github.com/Sayo-nika/quickstart-oss) [![GitHub](https://img.shields.io/github/license/projectalicedev/stein.svg)](LICENSE)
+[![Build Status](https://travis-ci.com/ProjectAliceDev/stein.svg?branch=master)](https://travis-ci.com/ProjectAliceDev/stein) [![AliceOS 1.0.0beta2](https://img.shields.io/badge/aliceos-1.0.0beta2-yellow.svg)](https://github.com/ProjectAliceDev/aliceos) [![Sayonika Quickstart Template](https://img.shields.io/badge/quickstart--oss-1.0.2-orange.svg)](https://github.com/Sayo-nika/quickstart-oss) [![GitHub](https://img.shields.io/github/license/projectalicedev/stein.svg)](LICENSE) ![Xcode 9.3+ supported](https://img.shields.io/badge/xcode-9.3%2B-blue.svg)
 
 ![Main menu](menu.png)
 
 Forgotten is a mod for **Doki Doki Literature Club!** (DDLC) created and maintained by the Project Alice team. Set after the events of DDLC, Sayori takes on the challenges of leading the literature club while the other members deal with Monika's sudden disappearance and the arrival of Sayonika, a cheerful classmate with a passion and craft in programming. However, when strange things start happening around campus and the neighborhood, it's up to the club, with the help of newly-arrived Alice Angel, to find out what's going on and where Monika disappeared to.
+
+## Build Instructions
+
+Building Project Stein is similar to any DDLC mod project, which can be easily loaded using Ren'Py 6.99.12.4. 
+
+### Xcode Compatibility
+
+If you are using Xcode 9.3 or higher, you can open this project directly and change `RENPY_TOOL` in Config.xcconfig (and the Executable in the Run Scheme) to reflect where your copy of Ren'Py SDK is located. After changing these settings, you're able to use the standard Build and Run features of Xcode to test Project Stein.
+
+> Note: Xcode doesn't have full support for the Ren'Py language, so make sure to be careful as it will force Python syntax highlighting.
 
 ## License
 
