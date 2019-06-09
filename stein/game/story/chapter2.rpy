@@ -136,7 +136,129 @@ label chapter_two:
     show alice 1u at t33 
     sy "Freaking hell."
     sy "I take it that was Monika..."
+    show natsuki at f32
     n "Y-yeah..."
-    n "Look, just don't tell {i}anyone{/i} that you saw this, okay?"
-    n "I-it's not like I'm trying to protect them here or anything..."
+    n 4f "Look, just don't tell {i}anyone{/i} that you saw this, okay?"
+    n 5s "I-it's not like I'm trying to protect them here or anything..."
+    show natsuki at t32
+    show alice 2h at t33
+    "Alice raises her finger, wanting to comment, but I cut her off."
+    mc "Yes, Alice, she is protecting them."
+    mc "This is just kind of how Natsuki is; don't question it."
+    mc "I don't fully understand, either."
+    show alice 1h at t33
+    "Alice lowers her finger."
+    "Natsuki slugs me in the gut. Sayonika quietly chuckles."
+    mc "Natsuki!!"
+    show natsuki at f32
+    n 1e "I'm being serious about something and that's what you come up with?"
+    show alice at f33
+    show natsuki at t32
+    a 2k "I mean, to be fair, he kind of {i}did{/i} answer my question before I asked..."
+    show alice at t33
+    show natsuki 5s at t32
+    "Natsuki steps back for a second."
+    show sayonika at f31
+    sy 3r "So what, are we going to just ignore this?"
+    show natsuki at f32
+    show sayonika at t31
+    n 2f "Of course not, you dummy!"
+    n 2q "I'll, uh... investigate it myself."
+    n 1o "But I don't need you to get involved or anything!"
+    show alice at f33
+    show natsuki at t32
+    a 2n "Natsuki, are you really sure you can handle it all by yourself?"
+    a "That's got to be a lot of stress coming your way on top of what you're already dealing with."
+    show alice at t33
+    "Natsuki stomps her foot down."
+    show natsuki at f32
+    n 1e "You don't even know what I go through every day!"
+    n "I'd be careful saying that kind of thing if I we-{nw}"
+    show natsuki at t32
+    show sayonika at f31
+    sy 3p "Hey, give her some respect there!"
+    sy "{i}You{/i} don't even know what she's gone through, either!"
+    sy "Heck, she's even died once!"
+    sy 2o "Wait, uh..."
+    show sayonika 1k at f31
+    show alice 1u at s33
+    "Alice lowers her head as Sayonika thinks about what she just said."
+    mc "Wait, what the hell do you mean by that?"
+    "Alice steps out sheepishly."
+    show alice at thide
+    hide alice
+    show sayonika at t21
+    show natsuki at t22
+    mc "Sayonika?"
+    sy "Shit! I shouldn't have said that..."
+    sy "She didn't, uh..."
+    "I pause for a moment, shocked and hurt."
+    "What the hell is going on?"
+    "Why is this a big deal all of a sudden?"
+    "I'd better get some answers, but I have to be careful about it."
+    mc "I'm gonna, uh... {w=1.0}go check up on Alice."
+    "I walk out the door and search for her in the hallway."
+    show sayonika at thide
+    show natsuki at thide
+    hide sayonika
+    hide natsuki
+    
+    # MARK: Confronting Alice
+    stop music
+    scene bg corridor
+    with wipeleft
+    "I look around to look for Alice, and it doesn't take long before I spot her at the end of the hallway."
+    "She looks out the window, completely still. Not even a tear."
+    show alice 1q at t11
+    "I slowly approach her, making sure I don't scare her."
+    mc "Alice, are you alright?"
+    a 1n "Me? Eh, kind of..."
+    play music t9
+    a 1v "I just didn't expect her to say anything about...{w=0.5} that."
+    mc "What did she mean about that?"
+    mc "The wording was a bit unclear for me. I'm guessing it's symbolic?"
+    a "No..."
+    "She pulls her cardigan down a bit, revealing a scar across her chest."
+    a 1q "She wasn't kidding."
+    stop music fadeout 0.5
+    a "I actually did die once. Stabbed right through the heart."
+    a "I don't want to really get into the details or anything..."
+    mc "Wow..."
+    mc "I didn't realize..."
+    a 1p "Eh, it's fine, really."
+    play music t10 fadein 0.5
+    a 1o "Just makes me a little more grateful to be alive now, you know?"
+    mc "Yeah, that's true."
+    a 1q "I'm just more worried about Natsuki."
+    a "She can't possibly take all of that on, especially since she's still a student."
+    a 1v "That and the fact that Sayonika snapped the way she did."
+    a 2i "I'm not going to lie here. I'd take the chance to find out what's going on myself if I could."
+    a 1k "I'm not really doing anything anyway."
+    mc "I see."
+    mc "Well, I'm sure if you make your case to Natsuki, she'd let you."
+    mc "You probably have more experience than anyone else."
+    a 2i "Not really, but I'm sure whoever did that is sending some kind of a message."
+    a "And given that I {i}did{/i} see the halo and horns, this person isn't a fan of Monika... or me."
+    a "They probably see Monika as a threat or some pawn in a bigger operation."
+    a "I'll have to ask around, but I'm sure I can figure something out."
+    mc "Well, if that's the case, I could help by talking to a couple of people."
+    mc "It's the least I can do for this."
+    a 1k "[player], you don't need to do anything."
+    a 1g "I know you're probably busy, too, and I certainly wouldn't want to burden you."
+    mc "It's fine. we can split the workload."
+    mc "And we can compare notes when we need to."
+    mc "Do we have a deal?"
+    "Alice looks into my eyes for a bit before responding."
+    a 1b "Alright, groupwork it is."
+    a "I hope you're ready to work with angels."
+    a "Let's head back before they get worried."
+    show alice at thide
+    hide alice
+    "Alice takes my hand as we march back to the big classroom."
+    "However, it appears that Sayonika and Natsuki had slipped out during our conversation."
+    "Alice and I promptly decide to go back to the clubroom."
+    
+    # MARK: Back to the Clubroom
+    scene bg club_day
+    with wipeleft
     return
