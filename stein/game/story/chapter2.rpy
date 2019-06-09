@@ -69,7 +69,7 @@ label chapter_two:
     hide sayonika
     "We leave the clubroom and head down to the big classroom."
 
-    # MARK: Natsuki and The Big Reveal
+    # MARK: Natsuki in the Big Classroom
     scene bg corridor
     with wipeleft
     "We make it to the hallway where the big classroom is."

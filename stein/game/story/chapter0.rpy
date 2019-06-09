@@ -1,3 +1,4 @@
+# MARK: Chapter 1
 label chapter_zero:
     stop music fadeout 2.0
     scene bg residential_day
@@ -44,6 +45,7 @@ label chapter_zero:
     mc "At least she's transferring now and not halfway through the year."
     s 1a "I'll walk to that!"
     
+    # MARK: Meeting Sayonika
     scene bg campus
     with wipeleft
     "It doesn't take long before we arrive at the entrance."
@@ -108,6 +110,7 @@ label chapter_zero:
     "I follow from behind at a distance."
     "I think she'll be alright."
 
+    # MARK: Club Meeting
     stop music fadeout 1.0
     scene bg club_day
     with wipeleft
@@ -218,6 +221,7 @@ label chapter_zero:
     show sayori zorder 3 at f42
     s "Okay, everyone! Let's get settled in."
 
+    # MARK: Announcements Time
     scene bg club_day
     with wipeleft
     "We all gather around the table as Natsuki begins distributing the cupcakes."
@@ -284,6 +288,7 @@ label chapter_zero:
     y "Oh, I didn't say anything."
     y "Well, here's the game. Let's set up, shall we?"
 
+    # MARK: After Scrabble / Meeting Alice
     scene bg club_day
     with wipeleft
     "The five of us play a few rounds of Scrabble while munching away on the cupcakes."
@@ -378,6 +383,7 @@ label chapter_zero:
     s 1c "Alright. Let's get going, then."
     "Sayori and I leave the clubroom, closing the doors for the night."
 
+    # MARK: Walking with Sayori
     scene bg residential_day
     with wipeleft
     show sayori 1a at t11
@@ -412,6 +418,7 @@ label chapter_zero:
     show sayori at thide
     hide sayori
     
+    # MARK: Midnight
     stop music fadeout 1.0
     scene black with fade
     pause 1.5

@@ -1,3 +1,4 @@
+# MARK: Chapter 2
 label chapter_one:
     scene bg bedroom 
     with dissolve_scene_full
@@ -36,6 +37,7 @@ label chapter_one:
     "I pick up my belongings while Sayori closes the window."
     "I turn off the light switch and close the door as we both leave my room."
 
+    # MARK: Entering Sayonika's Place
     scene bg residential_entrance
     with wipeleft
     "It didn't take long before we make it to Sayonika's place."
@@ -149,6 +151,7 @@ label chapter_one:
     hide sayonika
     "We follow Sayonika through the loft, taking in the well-designed architecture."
 
+    # MARK: Sayonika's Room
     scene bg bedroom_sy
     with wipeleft
     "Finally, Sayonika shows us her bedroom."
@@ -271,6 +274,8 @@ label chapter_one:
     sy 1bb "It usually works itself out, though."
     show sayonika at t31
     "Suddenly, Alice's phone rings."
+    
+    # MARK: Phone Call with Joe
     show alice at f33
     a 1d "Oh, my phone's ringing. Just a moment."
     stop music fadeout 1.0
@@ -344,6 +349,7 @@ label chapter_one:
     hide sayori
     "Sayori and I make our way out of the loft."
 
+    # MARK: At Sayori's House
     scene bg residential_day
     with wipeleft
     "We really didn't talk much on the walk back."
