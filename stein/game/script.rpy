@@ -16,7 +16,7 @@ label start:
     $ n_name = "Natsuki"
     $ y_name = "Yuri"
     $ a_name = "???"
-    $ cr_name = "???"
+    $ cr_name = "Craig"
     $ sy_name = "???"
 
     $ quick_menu = True

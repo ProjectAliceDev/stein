@@ -39,7 +39,7 @@ init python:
         if time <= 0: return
         renpy.pause(time)
 
-#Music
+# MARK: Music
 #The Music section is where you can reference existing DDLC audio
 
 #You'll see this in some existing scripts as command 'play music [t1]' for example
@@ -88,6 +88,7 @@ define audio.t9g = "<loop 1.532>bgm/9g.ogg" #207% speed
 define audio.t10 = "<loop 5.861>bgm/10.ogg"   #Confession
 define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
 define audio.td = "<loop 36.782>bgm/d.ogg"
+define audio.a1 = "mod_assets/SelfEsteemFund.ogg" # Self Esteem Fund
 
 
 define audio.m1 = "<loop 0>bgm/m1.ogg" #Monika and her spaceroom music
@@ -103,7 +104,7 @@ define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
 define audio.fall = "sfx/fall.ogg"
 
-# Backgrounds
+# MARK: Backgrounds
 image black = "#000000"
 image dark = "#000000e4"
 image darkred = "#110000c8"
@@ -139,6 +140,21 @@ image bg notebook = "bg/notebook.png"
 image bg notebook-glitch = "bg/notebook-glitch.png"
 
 image bg glitch = LiveTile("bg/glitch.jpg")
+
+image bg campus = "mod_assets/images/bg/campus.png"
+image bg residential_entrance = "mod_assets/images/bg/entrance_mod.png"
+image bg livingroom = "mod_assets/images/bg/livingroom.png"
+image bg livingroom_night = "mod_assets/images/bg/livingroom_night.png"
+image bg bedroom_night = "mod_assets/images/bg/bedroom_midnight.png"
+image bg bedroom_sy = "mod_assets/images/bg/sayonika_bedroom.png"
+image bg m_classroom_skill = "mod_assets/images/bg/big_classroom_skill.png"
+image bg m_classroom = "mod_assets/images/bg/big_classroom.png"
+
+image bg mall_cloudy = "mod_assets/images/bg/mall.png"
+image bg mall_day = "mod_assets/images/bg/mall_day.png"
+image bg apple = "mod_assets/images/bg/appleshop.png"
+
+image fake_stop_error = "mod_assets/images/bg/ips_overlay.png"
 
 image glitch_color:
     ytile 3
@@ -224,7 +240,7 @@ image glitch_color2:
 
 #------------------------------------------------From hereon, the girl's bodies are defined along with their heads.
 #-----------------------------------------here's reference for the left half------the right half--------the head
-# Sayori
+# MARK: Sayori
 image sayori 1 = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
 image sayori 1a = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
 image sayori 1b = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/b.png")
@@ -450,7 +466,7 @@ image sayori glitch:
     pause 0.01666
     repeat
 
-# Natsuki
+# MARK: Natsuki
 image natsuki 11 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
 image natsuki 1a = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/a.png")
 image natsuki 1b = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/b.png")
@@ -870,7 +886,7 @@ image natsuki vomit = "natsuki/vomit.png"
 image n_blackeyes = "images/natsuki/blackeyes.png"
 image n_eye = "images/natsuki/eye.png"
 
-# Yuri
+# MARK: Yuri
 image yuri 1 = im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png")
 image yuri 2 = im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png")
 image yuri 3 = im.Composite((960, 960), (0, 0), "yuri/2l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png")
@@ -1168,7 +1184,7 @@ image yuri dragon:
 
 #------------------------------------------------Our beloved Monika only has her school uniform here, but that can change!
 
-# Just Monika
+# MARK: Monika
 image monika 1 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 2 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 3 = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
@@ -1296,7 +1312,7 @@ image monika g2:
             pause 0.2
     repeat
 
-###### Character Variables ######
+# MARK: Character Variables
 # These configure the shortcuts for writing dialog for each character.
 define narrator = Character(ctc="ctc", ctc_position="fixed")
 define mc = DynamicCharacter('player', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
@@ -1311,7 +1327,7 @@ define ny = Character('Nat & Yuri', what_prefix='"', what_suffix='"', ctc="ctc",
 
 define _dismiss_pause = config.developer
 
-###### Persistent Variables ######
+# MARK: Persistent Variables
 # These values are automatically loaded/saved on game start and exit.
 # These exist across all saves
 
