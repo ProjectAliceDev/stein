@@ -266,4 +266,52 @@ label chapter_three:
     show sayonika at f21
     show alice at t22
     sy 3bf "{i}Cheese grater...?{/i}"
+    "Alice points to one of the boxes on the floor."
+    "Sayonika takes a look at the side and squeals."
+    show sayonika at h21
+    sy 1bc "Uwa...{w=1.0} a new Mac Pro?!"
+    sy "Alice, I thought you were getting some sort of card or something, but...{w=1.0} wowie!"
+    show alice at f22
+    show sayonika at t21
+    a 2g "Darling, that trashcan of yours is on its last legs."
+    a "You deserve a little better than that."
+    a 2k "And you can grate your cheese with it, too!"
+    a 1j "Ehehe..."
+    show alice at t22
+    "Sayonika remains speechless."
+    "I kind of expected it since she got {i}two{/i} of them, and it's unlikely for Alice to need to use two of them together."
+    "I do kind of wonder how she did manage to get two, though..."
+    show alice at f22
+    a 1a "Look, don't sweat it."
+    a 1b "I need my dev to be at her best, and, to do that, we need the best hardware and software."
+    a "Consider it a 'company asset'."
+    show alice 1j at t22
+    stop music fadeout 2.5
+    "Sayonika gulps."
+    "I can only imagine the flurry of emotions going through the poor girl's head right now."
+    "Shocked, thankful, surprised..."
+    "She still remains speechless."
+    "Alice seems well aware of it, too."
+    "The friendship between the two is really strong, and nothing will seem to change it."
+    play music t10
+    "Sayonika quivers, trying to say something."
+    "In an instant, Alice goes in for a full embrace, hugging her while Sayonika bursts into tears of joy."
+    "Watching it unfold was like seeing a romantic movie or Natsuki and Yuri finally getting along after Monika left."
+    "Quite charming."
+    "After a few minutes, Alice and Sayonika let go of each other, completely calm and relaxed."
+    "The two remain silent for a few more minutes until Alice looks back at the boxes."
+    show sayonika 1bs at t21
+    show alice at f22
+    a 1b "Okay, kid, go set up your cheese grater."
+    show alice at t22
+    "Sayonika, without saying a word, takes one of the boxes up to her room."
+    show sayonika at thide
+    hide sayonika
+    show alice 1f at t11
+    "As soon as she's out of sight, Alice chuckles."
+    a "She's wonderful, isn't she?"
+    mc "The two of you are quite a dynamic duo."
+    a 1g "It really is like that, I guess."
+    a 1b "Come now, [player]. We've got work to do."
+    "I pick up the remaining box and follow Alice to her office."
     return
