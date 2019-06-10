@@ -49,6 +49,16 @@ Send and receive text messages from characters in a Ren'Py project.
             renpy.call_screen("alert", "Message Not Sent", "The message couldn't be sent.", ok_action=Return(0))
 
         def receive(self, from_who, message):
+            """
+                Send a notification as if a message is being received.
+                
+                Parameters
+                ----------
+                from_who : str
+                    The person that is sending the message
+                message : str
+                    The message being sent
+            """
             self.send_temporary_notification(sender=from_who, contents=message, action=Return(0))
     
     messages = MessagesApp()
