@@ -418,6 +418,7 @@
 		BF64178622AD5EEF00596A36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF64178722AD5EEF00596A36 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		BF64178822AD5F1200596A36 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		BF7FADCA22AE9B9700DAF84E /* chapter3.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter3.rpy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -1163,6 +1164,7 @@
 				BF64176222AD5EEF00596A36 /* chapter2.rpy */,
 				BF64176322AD5EEF00596A36 /* chapter0.rpy */,
 				BF64176422AD5EEF00596A36 /* chapter1.rpy */,
+				BF7FADCA22AE9B9700DAF84E /* chapter3.rpy */,
 			);
 			path = story;
 			sourceTree = "<group>";
