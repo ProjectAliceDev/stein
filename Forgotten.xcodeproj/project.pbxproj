@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_sprite_sheet.png; sourceTree = "<group>"; };
+		BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sayonika_sprite_sheet.jpg; sourceTree = "<group>"; };
+		BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice_sprite_sheet.jpg; sourceTree = "<group>"; };
+		BF5B2E0222B15C5E00033735 /* natsuki_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsuki_sprite_sheet.png; sourceTree = "<group>"; };
+		BF5B2E0322B15C5E00033735 /* Sayori_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sayori_sprite_sheet.png; sourceTree = "<group>"; };
 		BF6415BE22AD5EEE00596A36 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF6415C222AD5EEE00596A36 /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
 		BF6415C322AD5EEE00596A36 /* inject_version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = inject_version.sh; sourceTree = "<group>"; };
@@ -418,6 +423,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		BF5B2DFE22B15C5E00033735 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */,
+				BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */,
+				BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */,
+				BF5B2E0222B15C5E00033735 /* natsuki_sprite_sheet.png */,
+				BF5B2E0322B15C5E00033735 /* Sayori_sprite_sheet.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BF6415B322AD5ECF00596A36 = {
 			isa = PBXGroup;
 			children = (
@@ -443,6 +460,7 @@
 		BF6415C422AD5EEE00596A36 /* stein */ = {
 			isa = PBXGroup;
 			children = (
+				BF5B2DFE22B15C5E00033735 /* Resources */,
 				BF6415C622AD5EEE00596A36 /* icon.icns */,
 				BF6415C822AD5EEE00596A36 /* game */,
 				BF64176522AD5EEF00596A36 /* README.html */,

@@ -300,6 +300,7 @@ label chapter_three:
     "Quite charming."
     "After a few minutes, Alice and Sayonika let go of each other, completely calm and relaxed."
     "The two remain silent for a few more minutes until Alice looks back at the boxes."
+    stop music fadeout 3.0
     show sayonika 1bs at t21
     show alice at f22
     a 1b "Okay, kid, go set up your cheese grater."
@@ -318,6 +319,7 @@ label chapter_three:
     # MARK: Alice's Office
     scene bg loft_alice
     with wipeleft
+    play music t6
     "I take a moment to analyze my surroundings, taking in just how amazing her place looks."
     mc "Wow..."
     show alice 1a at t11
@@ -335,4 +337,83 @@ label chapter_three:
     a 1j "No worries, I can just set it up tonight."
     mc "Why don't you just grab it now? Might as well save you time, right?"
     a 1k "I, uh, I guess..."
+    show alice at thide
+    hide alice
+    "Alice steps out to grab the monitor."
+    "In the meantime, I pull out one of the blue chairs and sit down, looking out the window."
+    "I can only imagine looking at this every day while working on something as stressful as what Alice does."
+    "It doesn't take long before Alice returns with a huge monitor in hand."
+    show alice 1a at t11
+    a 1j "Ehehe... I probably should've boxed this up before moving it here..."
+    mc "Holy smokes! That's one huge monitor..."
+    a 1p "Yeah, coding work needs big spaces..."
+    "I slowly and carefully take the monitor out of her hands."
+    a 2k "Ooh! Uh..."
+    show alice 1e at t11
+    "Alice giggles, almost like a little girl."
+    "She puts her hand to her face, almost as if she was listening on on gossip."
+    "It certainly felt weird seeing Alice act this way."
+    "In a way, she kind of reminded me of Moni-{nw}"
+    "No. I shouldn't say that."
+    "I quickly shrug it off and place the monitor on the table."
+    a 1h "Uh, [player]... you alright?"
+    "Crap. She saw me shrug."
+    mc "I'm fine. Just a bad thought, that's all."
+    a 2h "Bad thought?"
+    mc "Yeah, it's nothing to worry about, Alice."
+    mc "Better that I ignore it."
+    a "If you say so."
+    mc "I'm not sure how you want the cables going about and where this is getting placed, so I'll just get the computer out of the box for now."
+    a 1a "Alright. Be careful with that cheese grater."
+    "I open the box and pull out the styrofoam and computer, placing it on the table."
+    "After watching Alice set up the monitor in the place she wants it, I follow through with the computer, placing it underneath."
+    "I slowly back out after, making sure I don't hit myself or Alice by accident."
+    mc "I think that does it."
+    a 1b "Well, thanks. You didn't have to."
+    a "I can take care of the rest later. Only takes an hour or so."
+    mc "So... what now?"
+    a "Well, uh..."
+    a 1h "Crap. I forgot."
+    mc "Don't sweat it."
+    mc "I'm sure you'll think of something soon."
+    "Suddenly, we hear Sayonika call out."
+    sy "Guys!"
+    show sayonika 1bd at t21
+    show alice at t22
+    stop music fadeout 1.5
+    "Sayonika enters."
+    sy 2bf "We didn't happen to make dinner plans, did we?"
+    show alice at f22
+    show sayonika at t21
+    play music t8
+    a 2k "Ahaha... is it that time already?"
+    a "Wow, time flies."
+    show alice 1f at t22
+    "I look at my watch."
+    mc "Yup. 4:30PM."
+    mc "Man, the day went by pretty quickly..."
+    mc "I don't know if Sayori wanted dinner or anything..."
+    "I feel a buzz from my back pockets."
+    mc "Hold up."
+    "I grab my phone and look at the lock screen."
+    $ messages.receive("Sayori", "I can't remember if we had dinner plans.")
+    mc "Heh."
+    mc "Apparently Sayori doesn't know either."
+    show alice at f22
+    a 2g "Why don't you ask her if she wants to join us, then?"
+    show alice at t22
+    "I reply back to Sayori as per Alice's suggestion."
+    "It doesn't take long for Sayori to respond. She's got speedy fingers."
+    $ messages.receive("Sayori", "That sounds lovely. Any way to get food in my stomach is great rn.")
+    mc "Well, looks like that's a yes."
+    show alice at f22
+    a 1k "Oh, good!"
+    a 1b "Let's see what we can work with, shall we?"
+    show sayonika at thide
+    show alice at thide
+    hide sayonika
+    hide alice
+    "I follow the girls up to the kitchen."
+    "This will certainly be an interesting dinner."
+    scene black with fade
     return
