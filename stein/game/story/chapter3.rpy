@@ -314,4 +314,25 @@ label chapter_three:
     a 1g "It really is like that, I guess."
     a 1b "Come now, [player]. We've got work to do."
     "I pick up the remaining box and follow Alice to her office."
+    
+    # MARK: Alice's Office
+    scene bg loft_alice
+    with wipeleft
+    "I take a moment to analyze my surroundings, taking in just how amazing her place looks."
+    mc "Wow..."
+    show alice 1a at t11
+    a 1j "You like it?"
+    mc "This is really impressive, Alice!"
+    mc "You must feel really relaxed here."
+    a 2g "It's one of the reasons why I bought this place."
+    a "I was sold the moment they showed me this office."
+    a 2k "Sayonika really loves it, too."
+    show alice 1a at t11
+    mc "I must say."
+    mc "So, uh, where are we putting this?"
+    a 1b "Oh, you can put it to the side for now."
+    a 1p "I kind of forgot to get my monitor from the other room."
+    a 1j "No worries, I can just set it up tonight."
+    mc "Why don't you just grab it now? Might as well save you time, right?"
+    a 1k "I, uh, I guess..."
     return
