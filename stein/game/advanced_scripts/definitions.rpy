@@ -101,10 +101,12 @@ define audio.g1 = "<loop 0>bgm/g1.ogg"
 define audio.g2 = "<loop 0>bgm/g2.ogg"
 define audio.hb = "<loop 0>bgm/heartbeat.ogg"
 
+# MARK: SFX
 define audio.closet_open = "sfx/closet-open.ogg"
 define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
 define audio.fall = "sfx/fall.ogg"
+define audio.metal_hit = "mod_assets/sfx/metalhit.ogg"
 
 # MARK: Backgrounds
 image black = "#000000"

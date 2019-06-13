@@ -10,6 +10,7 @@
 		BF39D5E722B1BDCE003808F8 /* chapter3_reprise.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter3_reprise.rpy; sourceTree = "<group>"; };
 		BF39D5E822B1C066003808F8 /* entrance_mod_lightsout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrance_mod_lightsout.png; sourceTree = "<group>"; };
 		BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		BF39D5EB22B1D711003808F8 /* metalhit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metalhit.wav; sourceTree = "<group>"; };
 		BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_sprite_sheet.png; sourceTree = "<group>"; };
 		BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sayonika_sprite_sheet.jpg; sourceTree = "<group>"; };
 		BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice_sprite_sheet.jpg; sourceTree = "<group>"; };
@@ -372,6 +373,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		BF39D5EA22B1D711003808F8 /* sfx */ = {
+			isa = PBXGroup;
+			children = (
+				BF39D5EB22B1D711003808F8 /* metalhit.wav */,
+			);
+			path = sfx;
+			sourceTree = "<group>";
+		};
 		BF5B2DFE22B15C5E00033735 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -777,6 +786,7 @@
 		BF64168222AD5EEF00596A36 /* mod_assets */ = {
 			isa = PBXGroup;
 			children = (
+				BF39D5EA22B1D711003808F8 /* sfx */,
 				BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */,
 				BF64168322AD5EEF00596A36 /* images */,
 				BF64170B22AD5EEF00596A36 /* hkb_hover_background.png */,
@@ -1068,9 +1078,9 @@
 			isa = PBXGroup;
 			children = (
 				BF64176022AD5EEF00596A36 /* title.rpy */,
-				BF64176222AD5EEF00596A36 /* chapter2.rpy */,
 				BF64176322AD5EEF00596A36 /* chapter0.rpy */,
 				BF64176422AD5EEF00596A36 /* chapter1.rpy */,
+				BF64176222AD5EEF00596A36 /* chapter2.rpy */,
 				BF7FADCA22AE9B9700DAF84E /* chapter3.rpy */,
 				BF39D5E722B1BDCE003808F8 /* chapter3_reprise.rpy */,
 			);

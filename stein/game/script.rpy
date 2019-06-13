@@ -32,11 +32,20 @@ label start:
         call chapter_one
         call chapter_two
         call chapter_three
-        call end_js_32
+        call chapter_three_reprise
         call ncredits
         call end_overlay
     else:
-        call chapter3_reprise
+        # Checks that the JavaScript server does not cause a buffer
+        # overflow. If so, call the script to end the thread.
+        python:
+            import random
+            javascript_serve = random.randint(1, 25)
+            print("JavaScript Serve Code: " + str(javascript_serve))
+        if javascript_serve >= 20:
+            $ javascript_serve = None
+            call end_js_32
+
         stop music
         call screen ThrowASError(glitchtext(32))
         $ renpy.utter_restart()
