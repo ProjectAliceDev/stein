@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		BF39D5E722B1BDCE003808F8 /* chapter3_reprise.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter3_reprise.rpy; sourceTree = "<group>"; };
+		BF39D5E822B1C066003808F8 /* entrance_mod_lightsout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrance_mod_lightsout.png; sourceTree = "<group>"; };
+		BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
 		BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_sprite_sheet.png; sourceTree = "<group>"; };
 		BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sayonika_sprite_sheet.jpg; sourceTree = "<group>"; };
 		BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice_sprite_sheet.jpg; sourceTree = "<group>"; };
@@ -17,20 +20,13 @@
 		BF6415C322AD5EEE00596A36 /* inject_version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = inject_version.sh; sourceTree = "<group>"; };
 		BF6415C622AD5EEE00596A36 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		BF6415C922AD5EEE00596A36 /* yuri.chr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yuri.chr; sourceTree = "<group>"; };
-		BF6415CA22AD5EEE00596A36 /* splash.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.rpyc; sourceTree = "<group>"; };
-		BF6415CB22AD5EEE00596A36 /* screens.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = screens.rpyc; sourceTree = "<group>"; };
 		BF6415CC22AD5EEE00596A36 /* options.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = options.rpy; sourceTree = "<group>"; };
 		BF6415CE22AD5EEE00596A36 /* Setup.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Setup.rpy; sourceTree = "<group>"; };
-		BF6415CF22AD5EEE00596A36 /* ASErrorHandler.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ASErrorHandler.rpyc; sourceTree = "<group>"; };
-		BF6415D022AD5EEE00596A36 /* Bootloader.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bootloader.rpyc; sourceTree = "<group>"; };
 		BF6415D122AD5EEE00596A36 /* Bootloader.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bootloader.rpy; sourceTree = "<group>"; };
-		BF6415D222AD5EEE00596A36 /* Setup.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Setup.rpyc; sourceTree = "<group>"; };
-		BF6415D322AD5EEE00596A36 /* ASDesktopEnv.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ASDesktopEnv.rpyc; sourceTree = "<group>"; };
 		BF6415D422AD5EEE00596A36 /* ASDesktopEnv.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ASDesktopEnv.rpy; sourceTree = "<group>"; };
 		BF6415D522AD5EEE00596A36 /* ASErrorHandler.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ASErrorHandler.rpy; sourceTree = "<group>"; };
 		BF6415D622AD5EEE00596A36 /* script.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script.rpy; sourceTree = "<group>"; };
 		BF6415D922AD5EEE00596A36 /* Pendleton.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pendleton.rpy; sourceTree = "<group>"; };
-		BF6415DA22AD5EEE00596A36 /* Pendleton.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pendleton.rpyc; sourceTree = "<group>"; };
 		BF6415DD22AD5EEE00596A36 /* 48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 48.png; sourceTree = "<group>"; };
 		BF6415DE22AD5EEE00596A36 /* 64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 64.png; sourceTree = "<group>"; };
 		BF6415DF22AD5EEE00596A36 /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128.png; sourceTree = "<group>"; };
@@ -46,9 +42,7 @@
 		BF6415EC22AD5EEE00596A36 /* 256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256.png; sourceTree = "<group>"; };
 		BF6415ED22AD5EEE00596A36 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
 		BF6415EE22AD5EEE00596A36 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
-		BF6415EF22AD5EEE00596A36 /* Messages.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Messages.rpyc; sourceTree = "<group>"; };
 		BF6415F122AD5EEE00596A36 /* RenPy.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenPy.rpy; sourceTree = "<group>"; };
-		BF6415F222AD5EEE00596A36 /* RenPy.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = RenPy.rpyc; sourceTree = "<group>"; };
 		BF6415F522AD5EEE00596A36 /* 32-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32-32.png"; sourceTree = "<group>"; };
 		BF6415F622AD5EEE00596A36 /* 64-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64-64.png"; sourceTree = "<group>"; };
 		BF6415F722AD5EEE00596A36 /* 24-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-24.png"; sourceTree = "<group>"; };
@@ -62,12 +56,6 @@
 		BF64160022AD5EEE00596A36 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF64160122AD5EEE00596A36 /* splash.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = splash.rpy; sourceTree = "<group>"; };
 		BF64160222AD5EEE00596A36 /* natsuki.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = natsuki.chr; sourceTree = "<group>"; };
-		BF64160422AD5EEE00596A36 /* T4.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T4.rpyc; sourceTree = "<group>"; };
-		BF64160522AD5EEE00596A36 /* T8.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T8.rpyc; sourceTree = "<group>"; };
-		BF64160622AD5EEE00596A36 /* T9.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T9.rpyc; sourceTree = "<group>"; };
-		BF64160722AD5EEE00596A36 /* T5.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T5.rpyc; sourceTree = "<group>"; };
-		BF64160822AD5EEE00596A36 /* T2.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T2.rpyc; sourceTree = "<group>"; };
-		BF64160922AD5EEE00596A36 /* T3.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T3.rpyc; sourceTree = "<group>"; };
 		BF64160A22AD5EEE00596A36 /* T9.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T9.rpy; sourceTree = "<group>"; };
 		BF64160B22AD5EEE00596A36 /* T8.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T8.rpy; sourceTree = "<group>"; };
 		BF64160C22AD5EEE00596A36 /* T5.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T5.rpy; sourceTree = "<group>"; };
@@ -76,17 +64,11 @@
 		BF64160F22AD5EEE00596A36 /* T7.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T7.rpy; sourceTree = "<group>"; };
 		BF64161022AD5EEE00596A36 /* T3.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T3.rpy; sourceTree = "<group>"; };
 		BF64161122AD5EEE00596A36 /* T2.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T2.rpy; sourceTree = "<group>"; };
-		BF64161222AD5EEE00596A36 /* T1.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T1.rpyc; sourceTree = "<group>"; };
 		BF64161322AD5EEE00596A36 /* T1.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T1.rpy; sourceTree = "<group>"; };
-		BF64161422AD5EEE00596A36 /* T6.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T6.rpyc; sourceTree = "<group>"; };
-		BF64161522AD5EEE00596A36 /* T7.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = T7.rpyc; sourceTree = "<group>"; };
 		BF64161722AD5EEE00596A36 /* logomark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logomark.png; sourceTree = "<group>"; };
 		BF64161922AD5EEE00596A36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		BF64161A22AD5EEE00596A36 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
 		BF64161B22AD5EEE00596A36 /* logomark-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logomark-white.png"; sourceTree = "<group>"; };
-		BF64161C22AD5EEF00596A36 /* OEMSettings.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = OEMSettings.rpyc; sourceTree = "<group>"; };
-		BF64161D22AD5EEF00596A36 /* DefaultSettings.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = DefaultSettings.rpyc; sourceTree = "<group>"; };
-		BF64161E22AD5EEF00596A36 /* Colors.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Colors.rpyc; sourceTree = "<group>"; };
 		BF64162022AD5EEF00596A36 /* audio-volume-change.oga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio-volume-change.oga"; sourceTree = "<group>"; };
 		BF64162122AD5EEF00596A36 /* phone-incoming-call.oga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phone-incoming-call.oga"; sourceTree = "<group>"; };
 		BF64162222AD5EEF00596A36 /* network-connectivity-lost.oga */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "network-connectivity-lost.oga"; sourceTree = "<group>"; };
@@ -124,7 +106,6 @@
 		BF64164222AD5EEF00596A36 /* trash-empty.oga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trash-empty.oga"; sourceTree = "<group>"; };
 		BF64164322AD5EEF00596A36 /* audio-channel-side-right.oga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio-channel-side-right.oga"; sourceTree = "<group>"; };
 		BF64164522AD5EEF00596A36 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
-		BF64164622AD5EEF00596A36 /* Branding.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Branding.rpyc; sourceTree = "<group>"; };
 		BF64164722AD5EEF00596A36 /* Branding.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Branding.rpy; sourceTree = "<group>"; };
 		BF64164822AD5EEF00596A36 /* DefaultSettings.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DefaultSettings.rpy; sourceTree = "<group>"; };
 		BF64164A22AD5EEF00596A36 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
@@ -140,7 +121,6 @@
 		BF64165522AD5EEF00596A36 /* UIStyles.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIStyles.rpy; sourceTree = "<group>"; };
 		BF64165622AD5EEF00596A36 /* OEMSettings.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OEMSettings.rpy; sourceTree = "<group>"; };
 		BF64165722AD5EEF00596A36 /* chibi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chibi.png; sourceTree = "<group>"; };
-		BF64165822AD5EEF00596A36 /* UIStyles.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = UIStyles.rpyc; sourceTree = "<group>"; };
 		BF64165B22AD5EEF00596A36 /* Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Light.ttf; sourceTree = "<group>"; };
 		BF64165C22AD5EEF00596A36 /* Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bold.ttf; sourceTree = "<group>"; };
 		BF64165D22AD5EEF00596A36 /* Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regular.ttf; sourceTree = "<group>"; };
@@ -172,7 +152,6 @@
 		BF64167922AD5EEF00596A36 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
 		BF64167A22AD5EEF00596A36 /* close_button_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button_hover.png; sourceTree = "<group>"; };
 		BF64167B22AD5EEF00596A36 /* overlay_confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_confirm.png; sourceTree = "<group>"; };
-		BF64167C22AD5EEF00596A36 /* script-example.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "script-example.rpy"; sourceTree = "<group>"; };
 		BF64167E22AD5EEF00596A36 /* singleton.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = singleton.py; sourceTree = "<group>"; };
 		BF64167F22AD5EEF00596A36 /* sayori.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = sayori.chr; sourceTree = "<group>"; };
 		BF64168022AD5EEF00596A36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -318,35 +297,21 @@
 		BF64171422AD5EEF00596A36 /* screens.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = screens.rpy; sourceTree = "<group>"; };
 		BF64171622AD5EEF00596A36 /* navigation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = navigation.json; sourceTree = "<group>"; };
 		BF64171722AD5EEF00596A36 /* monika.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = monika.chr; sourceTree = "<group>"; };
-		BF64171922AD5EEF00596A36 /* transforms.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = transforms.rpyc; sourceTree = "<group>"; };
-		BF64171A22AD5EEF00596A36 /* poems.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = poems.rpyc; sourceTree = "<group>"; };
 		BF64171B22AD5EEF00596A36 /* console.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = console.rpy; sourceTree = "<group>"; };
 		BF64171C22AD5EEF00596A36 /* glitchtext.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glitchtext.rpy; sourceTree = "<group>"; };
-		BF64171D22AD5EEF00596A36 /* definitions.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = definitions.rpyc; sourceTree = "<group>"; };
-		BF64171E22AD5EEF00596A36 /* glitchtext.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = glitchtext.rpyc; sourceTree = "<group>"; };
 		BF64171F22AD5EEF00596A36 /* zz_hotkey_buttons.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zz_hotkey_buttons.rpy; sourceTree = "<group>"; };
 		BF64172022AD5EEF00596A36 /* cgs.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cgs.rpy; sourceTree = "<group>"; };
 		BF64172122AD5EEF00596A36 /* poemwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poemwords.txt; sourceTree = "<group>"; };
 		BF64172222AD5EEF00596A36 /* definitions.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = definitions.rpy; sourceTree = "<group>"; };
 		BF64172322AD5EEF00596A36 /* effects.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = effects.rpy; sourceTree = "<group>"; };
 		BF64172422AD5EEF00596A36 /* credits.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = credits.rpy; sourceTree = "<group>"; };
-		BF64172522AD5EEF00596A36 /* poems_special.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = poems_special.rpyc; sourceTree = "<group>"; };
 		BF64172622AD5EEF00596A36 /* transforms.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transforms.rpy; sourceTree = "<group>"; };
-		BF64172722AD5EEF00596A36 /* script-poemgame.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "script-poemgame.rpyc"; sourceTree = "<group>"; };
 		BF64172822AD5EEF00596A36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BF64172922AD5EEF00596A36 /* cgs.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = cgs.rpyc; sourceTree = "<group>"; };
-		BF64172A22AD5EEF00596A36 /* zz_hotkey_buttons.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = zz_hotkey_buttons.rpyc; sourceTree = "<group>"; };
-		BF64172B22AD5EEF00596A36 /* gui.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = gui.rpyc; sourceTree = "<group>"; };
 		BF64172C22AD5EEF00596A36 /* zz_poemgame.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zz_poemgame.rpy; sourceTree = "<group>"; };
-		BF64172D22AD5EEF00596A36 /* zz_poemgame.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = zz_poemgame.rpyc; sourceTree = "<group>"; };
 		BF64172E22AD5EEF00596A36 /* script-poemgame.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "script-poemgame.rpy"; sourceTree = "<group>"; };
-		BF64172F22AD5EEF00596A36 /* credits.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = credits.rpyc; sourceTree = "<group>"; };
-		BF64173022AD5EEF00596A36 /* console.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = console.rpyc; sourceTree = "<group>"; };
 		BF64173122AD5EEF00596A36 /* poems_special.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poems_special.rpy; sourceTree = "<group>"; };
-		BF64173222AD5EEF00596A36 /* effects.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = effects.rpyc; sourceTree = "<group>"; };
 		BF64173322AD5EEF00596A36 /* poems.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poems.rpy; sourceTree = "<group>"; };
 		BF64173422AD5EEF00596A36 /* gui.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gui.rpy; sourceTree = "<group>"; };
-		BF64173522AD5EEF00596A36 /* script-example.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "script-example.rpyc"; sourceTree = "<group>"; };
 		BF64173622AD5EEF00596A36 /* fonts.rpa */ = {isa = PBXFileReference; lastKnownFileType = file; path = fonts.rpa; sourceTree = "<group>"; };
 		BF64173822AD5EEF00596A36 /* banner_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_frame.png; sourceTree = "<group>"; };
 		BF64173922AD5EEF00596A36 /* consent_button_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = consent_button_frame.png; sourceTree = "<group>"; };
@@ -354,34 +319,18 @@
 		BF64173C22AD5EEF00596A36 /* tutorial_idle_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_idle_background.png; sourceTree = "<group>"; };
 		BF64173D22AD5EEF00596A36 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
 		BF64173E22AD5EEF00596A36 /* overlay_confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_confirm.png; sourceTree = "<group>"; };
-		BF64173F22AD5EEF00596A36 /* script.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = script.rpyc; sourceTree = "<group>"; };
-		BF64174022AD5EEF00596A36 /* new_credits.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_credits.rpyc; sourceTree = "<group>"; };
 		BF64174122AD5EEF00596A36 /* endcard.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = endcard.rpy; sourceTree = "<group>"; };
-		BF64174222AD5EEF00596A36 /* options.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = options.rpyc; sourceTree = "<group>"; };
 		BF64174322AD5EEF00596A36 /* images.rpa */ = {isa = PBXFileReference; lastKnownFileType = file; path = images.rpa; sourceTree = "<group>"; };
 		BF64174622AD5EEF00596A36 /* import_ddlc.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = import_ddlc.rpy; sourceTree = "<group>"; };
-		BF64174722AD5EEF00596A36 /* import_ddlc.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = import_ddlc.rpyc; sourceTree = "<group>"; };
-		BF64174922AD5EEF00596A36 /* UserNotifications.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = UserNotifications.rpyc; sourceTree = "<group>"; };
-		BF64174A22AD5EEF00596A36 /* UIView.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = UIView.rpyc; sourceTree = "<group>"; };
-		BF64174B22AD5EEF00596A36 /* Applets.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Applets.rpyc; sourceTree = "<group>"; };
 		BF64174C22AD5EEF00596A36 /* UIView.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIView.rpy; sourceTree = "<group>"; };
 		BF64174D22AD5EEF00596A36 /* UserNotifications.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserNotifications.rpy; sourceTree = "<group>"; };
 		BF64174E22AD5EEF00596A36 /* Applets.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Applets.rpy; sourceTree = "<group>"; };
 		BF64174F22AD5EEF00596A36 /* overrides.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = overrides.rpy; sourceTree = "<group>"; };
-		BF64175022AD5EEF00596A36 /* endcard.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = endcard.rpyc; sourceTree = "<group>"; };
 		BF64175122AD5EEF00596A36 /* new_credits.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = new_credits.rpy; sourceTree = "<group>"; };
-		BF64175222AD5EEF00596A36 /* overrides.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = overrides.rpyc; sourceTree = "<group>"; };
-		BF64175422AD5EEF00596A36 /* definitions-sayonika.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "definitions-sayonika.rpyc"; sourceTree = "<group>"; };
-		BF64175722AD5EEF00596A36 /* definitions-craig.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "definitions-craig.rpyc"; sourceTree = "<group>"; };
 		BF64175822AD5EEF00596A36 /* definitions-craig.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "definitions-craig.rpy"; sourceTree = "<group>"; };
 		BF64175922AD5EEF00596A36 /* definitions-sayonika.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "definitions-sayonika.rpy"; sourceTree = "<group>"; };
-		BF64175A22AD5EEF00596A36 /* definitions-alice.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "definitions-alice.rpyc"; sourceTree = "<group>"; };
 		BF64175B22AD5EEF00596A36 /* definitions-alice.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "definitions-alice.rpy"; sourceTree = "<group>"; };
-		BF64175D22AD5EEF00596A36 /* chapter0.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = chapter0.rpyc; sourceTree = "<group>"; };
-		BF64175E22AD5EEF00596A36 /* chapter1.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = chapter1.rpyc; sourceTree = "<group>"; };
-		BF64175F22AD5EEF00596A36 /* title.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = title.rpyc; sourceTree = "<group>"; };
 		BF64176022AD5EEF00596A36 /* title.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = title.rpy; sourceTree = "<group>"; };
-		BF64176122AD5EEF00596A36 /* chapter2.rpyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = chapter2.rpyc; sourceTree = "<group>"; };
 		BF64176222AD5EEF00596A36 /* chapter2.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chapter2.rpy; sourceTree = "<group>"; };
 		BF64176322AD5EEF00596A36 /* chapter0.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chapter0.rpy; sourceTree = "<group>"; };
 		BF64176422AD5EEF00596A36 /* chapter1.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chapter1.rpy; sourceTree = "<group>"; };
@@ -460,16 +409,16 @@
 		BF6415C422AD5EEE00596A36 /* stein */ = {
 			isa = PBXGroup;
 			children = (
+				BF64178022AD5EEF00596A36 /* characters */,
+				BF6415C822AD5EEE00596A36 /* game */,
+				BF64176922AD5EEF00596A36 /* original_story_scripts */,
 				BF5B2DFE22B15C5E00033735 /* Resources */,
 				BF6415C622AD5EEE00596A36 /* icon.icns */,
-				BF6415C822AD5EEE00596A36 /* game */,
 				BF64176522AD5EEF00596A36 /* README.html */,
 				BF64176622AD5EEF00596A36 /* icon.ico */,
 				BF64176722AD5EEF00596A36 /* log.txt */,
 				BF64176822AD5EEF00596A36 /* .gitignore */,
-				BF64176922AD5EEF00596A36 /* original_story_scripts */,
 				BF64177F22AD5EEF00596A36 /* IPGuidelines.md */,
-				BF64178022AD5EEF00596A36 /* characters */,
 			);
 			path = stein;
 			sourceTree = "<group>";
@@ -477,46 +426,37 @@
 		BF6415C822AD5EEE00596A36 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				BF6415C922AD5EEE00596A36 /* yuri.chr */,
-				BF6415CA22AD5EEE00596A36 /* splash.rpyc */,
-				BF6415CB22AD5EEE00596A36 /* screens.rpyc */,
-				BF6415CC22AD5EEE00596A36 /* options.rpy */,
-				BF6415CD22AD5EEE00596A36 /* CoreServices */,
-				BF6415D622AD5EEE00596A36 /* script.rpy */,
 				BF6415D722AD5EEE00596A36 /* Applets */,
-				BF6415FB22AD5EEE00596A36 /* firstrun */,
+				BF6415CD22AD5EEE00596A36 /* CoreServices */,
+				BF64174822AD5EEF00596A36 /* Frameworks */,
+				BF64161622AD5EEE00596A36 /* Resources */,
+				BF64171822AD5EEF00596A36 /* advanced_scripts */,
 				BF6415FC22AD5EEE00596A36 /* cache */,
+				BF64175322AD5EEF00596A36 /* definitions */,
+				BF64173722AD5EEF00596A36 /* gui */,
+				BF64168222AD5EEF00596A36 /* mod_assets */,
+				BF64160322AD5EEE00596A36 /* monika_route_answer */,
+				BF64167D22AD5EEF00596A36 /* python-packages */,
+				BF64171522AD5EEF00596A36 /* saves */,
+				BF64175C22AD5EEF00596A36 /* story */,
+				BF64174422AD5EEF00596A36 /* submods */,
+				BF6415C922AD5EEE00596A36 /* yuri.chr */,
+				BF6415CC22AD5EEE00596A36 /* options.rpy */,
+				BF6415D622AD5EEE00596A36 /* script.rpy */,
+				BF6415FB22AD5EEE00596A36 /* firstrun */,
 				BF64160022AD5EEE00596A36 /* LICENSE */,
 				BF64160122AD5EEE00596A36 /* splash.rpy */,
 				BF64160222AD5EEE00596A36 /* natsuki.chr */,
-				BF64160322AD5EEE00596A36 /* monika_route_answer */,
-				BF64161622AD5EEE00596A36 /* Resources */,
-				BF64167C22AD5EEF00596A36 /* script-example.rpy */,
-				BF64167D22AD5EEF00596A36 /* python-packages */,
 				BF64167F22AD5EEF00596A36 /* sayori.chr */,
 				BF64168022AD5EEF00596A36 /* README.md */,
 				BF64168122AD5EEF00596A36 /* audio.rpa */,
-				BF64168222AD5EEF00596A36 /* mod_assets */,
 				BF64171422AD5EEF00596A36 /* screens.rpy */,
-				BF64171522AD5EEF00596A36 /* saves */,
 				BF64171722AD5EEF00596A36 /* monika.chr */,
-				BF64171822AD5EEF00596A36 /* advanced_scripts */,
-				BF64173522AD5EEF00596A36 /* script-example.rpyc */,
 				BF64173622AD5EEF00596A36 /* fonts.rpa */,
-				BF64173722AD5EEF00596A36 /* gui */,
-				BF64173F22AD5EEF00596A36 /* script.rpyc */,
-				BF64174022AD5EEF00596A36 /* new_credits.rpyc */,
 				BF64174122AD5EEF00596A36 /* endcard.rpy */,
-				BF64174222AD5EEF00596A36 /* options.rpyc */,
 				BF64174322AD5EEF00596A36 /* images.rpa */,
-				BF64174422AD5EEF00596A36 /* submods */,
-				BF64174822AD5EEF00596A36 /* Frameworks */,
 				BF64174F22AD5EEF00596A36 /* overrides.rpy */,
-				BF64175022AD5EEF00596A36 /* endcard.rpyc */,
 				BF64175122AD5EEF00596A36 /* new_credits.rpy */,
-				BF64175222AD5EEF00596A36 /* overrides.rpyc */,
-				BF64175322AD5EEF00596A36 /* definitions */,
-				BF64175C22AD5EEF00596A36 /* story */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -525,11 +465,7 @@
 			isa = PBXGroup;
 			children = (
 				BF6415CE22AD5EEE00596A36 /* Setup.rpy */,
-				BF6415CF22AD5EEE00596A36 /* ASErrorHandler.rpyc */,
-				BF6415D022AD5EEE00596A36 /* Bootloader.rpyc */,
 				BF6415D122AD5EEE00596A36 /* Bootloader.rpy */,
-				BF6415D222AD5EEE00596A36 /* Setup.rpyc */,
-				BF6415D322AD5EEE00596A36 /* ASDesktopEnv.rpyc */,
 				BF6415D422AD5EEE00596A36 /* ASDesktopEnv.rpy */,
 				BF6415D522AD5EEE00596A36 /* ASErrorHandler.rpy */,
 			);
@@ -550,7 +486,6 @@
 			isa = PBXGroup;
 			children = (
 				BF6415D922AD5EEE00596A36 /* Pendleton.rpy */,
-				BF6415DA22AD5EEE00596A36 /* Pendleton.rpyc */,
 				BF6415DB22AD5EEE00596A36 /* Resources */,
 			);
 			path = Pendleton;
@@ -583,7 +518,6 @@
 			children = (
 				BF6415E522AD5EEE00596A36 /* Messages.rpy */,
 				BF6415E622AD5EEE00596A36 /* Resources */,
-				BF6415EF22AD5EEE00596A36 /* Messages.rpyc */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -614,7 +548,6 @@
 			isa = PBXGroup;
 			children = (
 				BF6415F122AD5EEE00596A36 /* RenPy.rpy */,
-				BF6415F222AD5EEE00596A36 /* RenPy.rpyc */,
 				BF6415F322AD5EEE00596A36 /* Resources */,
 			);
 			path = RenPy;
@@ -654,12 +587,6 @@
 		BF64160322AD5EEE00596A36 /* monika_route_answer */ = {
 			isa = PBXGroup;
 			children = (
-				BF64160422AD5EEE00596A36 /* T4.rpyc */,
-				BF64160522AD5EEE00596A36 /* T8.rpyc */,
-				BF64160622AD5EEE00596A36 /* T9.rpyc */,
-				BF64160722AD5EEE00596A36 /* T5.rpyc */,
-				BF64160822AD5EEE00596A36 /* T2.rpyc */,
-				BF64160922AD5EEE00596A36 /* T3.rpyc */,
 				BF64160A22AD5EEE00596A36 /* T9.rpy */,
 				BF64160B22AD5EEE00596A36 /* T8.rpy */,
 				BF64160C22AD5EEE00596A36 /* T5.rpy */,
@@ -668,10 +595,7 @@
 				BF64160F22AD5EEE00596A36 /* T7.rpy */,
 				BF64161022AD5EEE00596A36 /* T3.rpy */,
 				BF64161122AD5EEE00596A36 /* T2.rpy */,
-				BF64161222AD5EEE00596A36 /* T1.rpyc */,
 				BF64161322AD5EEE00596A36 /* T1.rpy */,
-				BF64161422AD5EEE00596A36 /* T6.rpyc */,
-				BF64161522AD5EEE00596A36 /* T7.rpyc */,
 			);
 			path = monika_route_answer;
 			sourceTree = "<group>";
@@ -682,12 +606,8 @@
 				BF64161722AD5EEE00596A36 /* logomark.png */,
 				BF64161822AD5EEE00596A36 /* rsod */,
 				BF64161B22AD5EEE00596A36 /* logomark-white.png */,
-				BF64161C22AD5EEF00596A36 /* OEMSettings.rpyc */,
-				BF64161D22AD5EEF00596A36 /* DefaultSettings.rpyc */,
-				BF64161E22AD5EEF00596A36 /* Colors.rpyc */,
 				BF64161F22AD5EEF00596A36 /* systemsounds */,
 				BF64164422AD5EEF00596A36 /* backgrounds */,
-				BF64164622AD5EEF00596A36 /* Branding.rpyc */,
 				BF64164722AD5EEF00596A36 /* Branding.rpy */,
 				BF64164822AD5EEF00596A36 /* DefaultSettings.rpy */,
 				BF64164922AD5EEF00596A36 /* loader */,
@@ -696,7 +616,6 @@
 				BF64165522AD5EEF00596A36 /* UIStyles.rpy */,
 				BF64165622AD5EEF00596A36 /* OEMSettings.rpy */,
 				BF64165722AD5EEF00596A36 /* chibi.png */,
-				BF64165822AD5EEF00596A36 /* UIStyles.rpyc */,
 				BF64165922AD5EEF00596A36 /* systemfont */,
 				BF64167422AD5EEF00596A36 /* systemui */,
 			);
@@ -858,6 +777,7 @@
 		BF64168222AD5EEF00596A36 /* mod_assets */ = {
 			isa = PBXGroup;
 			children = (
+				BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */,
 				BF64168322AD5EEF00596A36 /* images */,
 				BF64170B22AD5EEF00596A36 /* hkb_hover_background.png */,
 				BF64170C22AD5EEF00596A36 /* ModLogo.png */,
@@ -934,6 +854,7 @@
 		BF6416A622AD5EEF00596A36 /* bg */ = {
 			isa = PBXGroup;
 			children = (
+				BF39D5E822B1C066003808F8 /* entrance_mod_lightsout.png */,
 				BF6416A722AD5EEF00596A36 /* ips_layer.png */,
 				BF6416A822AD5EEF00596A36 /* entrance_mod.png */,
 				BF6416A922AD5EEF00596A36 /* campus.png */,
@@ -1067,32 +988,19 @@
 		BF64171822AD5EEF00596A36 /* advanced_scripts */ = {
 			isa = PBXGroup;
 			children = (
-				BF64171922AD5EEF00596A36 /* transforms.rpyc */,
-				BF64171A22AD5EEF00596A36 /* poems.rpyc */,
 				BF64171B22AD5EEF00596A36 /* console.rpy */,
 				BF64171C22AD5EEF00596A36 /* glitchtext.rpy */,
-				BF64171D22AD5EEF00596A36 /* definitions.rpyc */,
-				BF64171E22AD5EEF00596A36 /* glitchtext.rpyc */,
 				BF64171F22AD5EEF00596A36 /* zz_hotkey_buttons.rpy */,
 				BF64172022AD5EEF00596A36 /* cgs.rpy */,
 				BF64172122AD5EEF00596A36 /* poemwords.txt */,
 				BF64172222AD5EEF00596A36 /* definitions.rpy */,
 				BF64172322AD5EEF00596A36 /* effects.rpy */,
 				BF64172422AD5EEF00596A36 /* credits.rpy */,
-				BF64172522AD5EEF00596A36 /* poems_special.rpyc */,
 				BF64172622AD5EEF00596A36 /* transforms.rpy */,
-				BF64172722AD5EEF00596A36 /* script-poemgame.rpyc */,
 				BF64172822AD5EEF00596A36 /* README.md */,
-				BF64172922AD5EEF00596A36 /* cgs.rpyc */,
-				BF64172A22AD5EEF00596A36 /* zz_hotkey_buttons.rpyc */,
-				BF64172B22AD5EEF00596A36 /* gui.rpyc */,
 				BF64172C22AD5EEF00596A36 /* zz_poemgame.rpy */,
-				BF64172D22AD5EEF00596A36 /* zz_poemgame.rpyc */,
 				BF64172E22AD5EEF00596A36 /* script-poemgame.rpy */,
-				BF64172F22AD5EEF00596A36 /* credits.rpyc */,
-				BF64173022AD5EEF00596A36 /* console.rpyc */,
 				BF64173122AD5EEF00596A36 /* poems_special.rpy */,
-				BF64173222AD5EEF00596A36 /* effects.rpyc */,
 				BF64173322AD5EEF00596A36 /* poems.rpy */,
 				BF64173422AD5EEF00596A36 /* gui.rpy */,
 			);
@@ -1132,7 +1040,6 @@
 			isa = PBXGroup;
 			children = (
 				BF64174622AD5EEF00596A36 /* import_ddlc.rpy */,
-				BF64174722AD5EEF00596A36 /* import_ddlc.rpyc */,
 			);
 			path = import_ddlc;
 			sourceTree = "<group>";
@@ -1140,9 +1047,6 @@
 		BF64174822AD5EEF00596A36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF64174922AD5EEF00596A36 /* UserNotifications.rpyc */,
-				BF64174A22AD5EEF00596A36 /* UIView.rpyc */,
-				BF64174B22AD5EEF00596A36 /* Applets.rpyc */,
 				BF64174C22AD5EEF00596A36 /* UIView.rpy */,
 				BF64174D22AD5EEF00596A36 /* UserNotifications.rpy */,
 				BF64174E22AD5EEF00596A36 /* Applets.rpy */,
@@ -1153,11 +1057,8 @@
 		BF64175322AD5EEF00596A36 /* definitions */ = {
 			isa = PBXGroup;
 			children = (
-				BF64175422AD5EEF00596A36 /* definitions-sayonika.rpyc */,
-				BF64175722AD5EEF00596A36 /* definitions-craig.rpyc */,
 				BF64175822AD5EEF00596A36 /* definitions-craig.rpy */,
 				BF64175922AD5EEF00596A36 /* definitions-sayonika.rpy */,
-				BF64175A22AD5EEF00596A36 /* definitions-alice.rpyc */,
 				BF64175B22AD5EEF00596A36 /* definitions-alice.rpy */,
 			);
 			path = definitions;
@@ -1166,15 +1067,12 @@
 		BF64175C22AD5EEF00596A36 /* story */ = {
 			isa = PBXGroup;
 			children = (
-				BF64175D22AD5EEF00596A36 /* chapter0.rpyc */,
-				BF64175E22AD5EEF00596A36 /* chapter1.rpyc */,
-				BF64175F22AD5EEF00596A36 /* title.rpyc */,
 				BF64176022AD5EEF00596A36 /* title.rpy */,
-				BF64176122AD5EEF00596A36 /* chapter2.rpyc */,
 				BF64176222AD5EEF00596A36 /* chapter2.rpy */,
 				BF64176322AD5EEF00596A36 /* chapter0.rpy */,
 				BF64176422AD5EEF00596A36 /* chapter1.rpy */,
 				BF7FADCA22AE9B9700DAF84E /* chapter3.rpy */,
+				BF39D5E722B1BDCE003808F8 /* chapter3_reprise.rpy */,
 			);
 			path = story;
 			sourceTree = "<group>";

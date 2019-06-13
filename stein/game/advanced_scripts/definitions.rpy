@@ -88,7 +88,9 @@ define audio.t9g = "<loop 1.532>bgm/9g.ogg" #207% speed
 define audio.t10 = "<loop 5.861>bgm/10.ogg"   #Confession
 define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
 define audio.td = "<loop 36.782>bgm/d.ogg"
+
 define audio.a1 = "mod_assets/SelfEsteemFund.ogg" # Self Esteem Fund
+define audio.a2 = "mod_assets/NoCakeForYou.ogg" # No Cake For You
 
 
 define audio.m1 = "<loop 0>bgm/m1.ogg" #Monika and her spaceroom music
@@ -143,6 +145,7 @@ image bg glitch = LiveTile("bg/glitch.jpg")
 
 image bg campus = "mod_assets/images/bg/campus.png"
 image bg residential_entrance = "mod_assets/images/bg/entrance_mod.png"
+image bg residential_entrance_night = "mod_assets/images/bg/entrance_mod_lightsout.png"
 image bg livingroom = "mod_assets/images/bg/livingroom.png"
 image bg livingroom_night = "mod_assets/images/bg/livingroom_night.png"
 image bg bedroom_night = "mod_assets/images/bg/bedroom_midnight.png"

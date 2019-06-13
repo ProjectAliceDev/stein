@@ -31,11 +31,12 @@ label start:
         call chapter_zero
         call chapter_one
         call chapter_two
+        call chapter_three
         call end_js_32
         call ncredits
         call end_overlay
     else:
-        call chapter_three
+        call chapter3_reprise
         stop music
         call screen ThrowASError(glitchtext(32))
         $ renpy.utter_restart()
