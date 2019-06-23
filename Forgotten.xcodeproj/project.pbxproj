@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		BF3973AB22BB0DC000E7A95C /* monika_test.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = monika_test.rpy; sourceTree = "<group>"; };
+		BF3973AC22BB113900E7A95C /* Monika_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monika_sprite_sheet.png; sourceTree = "<group>"; };
 		BF39D5E722B1BDCE003808F8 /* chapter3_reprise.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter3_reprise.rpy; sourceTree = "<group>"; };
 		BF39D5E822B1C066003808F8 /* entrance_mod_lightsout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrance_mod_lightsout.png; sourceTree = "<group>"; };
 		BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 		BF6415FB22AD5EEE00596A36 /* firstrun */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = firstrun; sourceTree = "<group>"; };
 		BF6415FD22AD5EEE00596A36 /* screens.rpyb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = screens.rpyb; sourceTree = "<group>"; };
 		BF6415FE22AD5EEE00596A36 /* bytecode.rpyb */ = {isa = PBXFileReference; lastKnownFileType = file; path = bytecode.rpyb; sourceTree = "<group>"; };
-		BF6415FF22AD5EEE00596A36 /* pyanalysis.rpyb */ = {isa = PBXFileReference; lastKnownFileType = file; path = pyanalysis.rpyb; sourceTree = "<group>"; };
+		BF6415FF22AD5EEE00596A36 /* pyanalysis.rpyb */ = {isa = PBXFileReference; lastKnownFileType = text; path = pyanalysis.rpyb; sourceTree = "<group>"; };
 		BF64160022AD5EEE00596A36 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF64160122AD5EEE00596A36 /* splash.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = splash.rpy; sourceTree = "<group>"; };
 		BF64160222AD5EEE00596A36 /* natsuki.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = natsuki.chr; sourceTree = "<group>"; };
@@ -384,6 +386,7 @@
 		BF5B2DFE22B15C5E00033735 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF3973AC22BB113900E7A95C /* Monika_sprite_sheet.png */,
 				BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */,
 				BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */,
 				BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */,
@@ -466,6 +469,7 @@
 				BF64174322AD5EEF00596A36 /* images.rpa */,
 				BF64174F22AD5EEF00596A36 /* overrides.rpy */,
 				BF64175122AD5EEF00596A36 /* new_credits.rpy */,
+				BF3973AB22BB0DC000E7A95C /* monika_test.rpy */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -1286,6 +1290,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF64178822AD5F1200596A36 /* Config.xcconfig */;
 			buildSettings = {
+				BUILD_ACTION = "$(BUILD_ACTION)";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUGGING_SYMBOLS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1301,6 +1306,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF64178822AD5F1200596A36 /* Config.xcconfig */;
 			buildSettings = {
+				BUILD_ACTION = "$(RELEASE_ACTION)";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				OTHER_CFLAGS = "";
