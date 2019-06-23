@@ -75,10 +75,12 @@ label chapter_three_reprise:
     pause 0.25
     play sound metal_hit
     pause 3.75
+    show monika oneeye at t11
     m "And so we finally meet{w=1.5}, Alice Angel..."
     m "What a pleasant{w=0.5}...{w=3.5} surprise."
     m "Filled with such...{w=3.0} {i}determination{/i}."
     $ style.say_dialogue = style.normal
+    scene black with dissolve
     window hide
     call updateconsole("swift SwitchViews.swift -as=default", "Working...")
     pause 2.0
