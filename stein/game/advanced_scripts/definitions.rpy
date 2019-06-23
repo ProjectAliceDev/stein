@@ -90,7 +90,7 @@ define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
 define audio.td = "<loop 36.782>bgm/d.ogg"
 
 define audio.a1 = "mod_assets/SelfEsteemFund.ogg" # Self Esteem Fund
-define audio.a2 = "mod_assets/NoCakeForYou.ogg" # No Cake For You
+define audio.a2 = "mod_assets/music/vreform_loop.mp3" # Violent Reform
 
 
 define audio.m1 = "<loop 0>bgm/m1.ogg" #Monika and her spaceroom music

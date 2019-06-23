@@ -20,5 +20,8 @@
 
 - Demo End Music: "Horror Epic" - audionautix.com
 
+### Soundtrack (designed by Pentex)
+- Violent Reform
+
 ## SFX
 - Metal pipe hit - sunnyflower

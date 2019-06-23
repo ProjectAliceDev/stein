@@ -27,8 +27,8 @@ label chapter_three_reprise:
     $ consolehistory = []
     call hideconsole
     scene bg residential_entrance_night with dissolve_scene_full
+    play music a2 fadein 10.0
     pause 2.0
-    play music a2
     $ style.say_dialogue = style.alice_talk
     "I slowly wake up from the couch, looking at the front door."
     "It's midnight already?"
@@ -70,7 +70,7 @@ label chapter_three_reprise:
     "I gently open the door."
     scene black with fade
     "Hello-{nw}"
-    stop music
+    stop music fadeout 0.5
     scene black
     pause 0.25
     play sound metal_hit
