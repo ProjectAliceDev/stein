@@ -21,6 +21,7 @@
 - Demo End Music: "Horror Epic" - audionautix.com
 
 ### Soundtrack (designed by Pentex)
+- Invalid Thought
 - Violent Reform
 
 ## SFX

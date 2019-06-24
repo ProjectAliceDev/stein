@@ -89,7 +89,7 @@ define audio.t10 = "<loop 5.861>bgm/10.ogg"   #Confession
 define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
 define audio.td = "<loop 36.782>bgm/d.ogg"
 
-define audio.a1 = "mod_assets/SelfEsteemFund.ogg" # Self Esteem Fund
+define audio.a1 = "mod_assets/music/ithought_loop.mp3" # Invalid Thought
 define audio.a2 = "mod_assets/music/vreform_loop.mp3" # Violent Reform
 
 

@@ -36,7 +36,6 @@ label start:
         call ncredits
         call end_overlay
     else:
-        call chapter_three_reprise
         call monika_test
         # Checks that the JavaScript server does not cause a buffer
         # overflow. If so, call the script to end the thread.
