@@ -59,7 +59,7 @@ deploy:
     tags: true # your mods only builds and uploads releases on a GitHub Git tag so make sure you tag and release accordingly!
     
  # This is where notifications get sent to Gitter.im when necessary
- notifications:
+notifications:
   webhooks:
     urls:
       - https://webhooks.gitter.im/e/19f1af836e1dfe07cfc7
