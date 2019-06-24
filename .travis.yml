@@ -57,3 +57,12 @@ deploy:
   skip_cleanup: true
   on:
     tags: true # your mods only builds and uploads releases on a GitHub Git tag so make sure you tag and release accordingly!
+    
+ # This is where notifications get sent to Gitter.im when necessary
+ notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/19f1af836e1dfe07cfc7
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always
