@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Monika</string>
+	<key>CFBundleIdentifier</key>
+	<string>moe.ddlc.characters.monika</string>
+	<key>CFBundleExecutable</key>
+	<string>monika.chr</string>
+	<key>Main entry file</key>
+	<string>override.swift</string>
+	<key>Character properties</key>
+	<dict>
+		<key>Age</key>
+		<string>9999999999</string>
+		<key>Birthday</key>
+		<string>September 22</string>
+		<key>Grandfathered file</key>
+		<true/>
+		<key>Import files</key>
+		<array>
+			<string>monika.chr</string>
+		</array>
+	</dict>
+</dict>
+</plist>
