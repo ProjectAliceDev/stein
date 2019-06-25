@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Susan Campbell</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.joeydrewstudios.chars.update.alice</string>
+	<key>CFBundleExecutable</key>
+	<string>monika.chr</string>
+	<key>Main entry file</key>
+	<string>CharacterAppDelegate.swift</string>
+	<key>Character properties</key>
+	<dict>
+		<key>Age</key>
+		<string></string>
+		<key>Birthday</key>
+		<string>September 22</string>
+		<key>Grandfathered file</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

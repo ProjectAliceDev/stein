@@ -372,6 +372,32 @@
 		BF64178722AD5EEF00596A36 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		BF64178822AD5F1200596A36 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		BF7FADCA22AE9B9700DAF84E /* chapter3.rpy */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter3.rpy; sourceTree = "<group>"; };
+		BFB0569222C1B149007B57F4 /* oneeye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneeye.png; sourceTree = "<group>"; };
+		BFB0569322C1B149007B57F4 /* a_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_a.png; sourceTree = "<group>"; };
+		BFB0569422C1B149007B57F4 /* a_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_g.png; sourceTree = "<group>"; };
+		BFB0569522C1B149007B57F4 /* 2l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2l.png; sourceTree = "<group>"; };
+		BFB0569622C1B149007B57F4 /* 1r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1r.png; sourceTree = "<group>"; };
+		BFB0569722C1B149007B57F4 /* 3c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3c.png; sourceTree = "<group>"; };
+		BFB0569822C1B149007B57F4 /* a_i_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_i_me.png; sourceTree = "<group>"; };
+		BFB0569922C1B149007B57F4 /* 3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3b.png; sourceTree = "<group>"; };
+		BFB0569A22C1B149007B57F4 /* 3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3a.png; sourceTree = "<group>"; };
+		BFB0569B22C1B149007B57F4 /* 2r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2r.png; sourceTree = "<group>"; };
+		BFB0569C22C1B149007B57F4 /* 3e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3e.png; sourceTree = "<group>"; };
+		BFB0569D22C1B149007B57F4 /* 1l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1l.png; sourceTree = "<group>"; };
+		BFB0569E22C1B149007B57F4 /* 3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d.png; sourceTree = "<group>"; };
+		BFB0569F22C1B149007B57F4 /* 3f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3f.png; sourceTree = "<group>"; };
+		BFB056A022C1B149007B57F4 /* a_g_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_g_me.png; sourceTree = "<group>"; };
+		BFB056A122C1B149007B57F4 /* a_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_i.png; sourceTree = "<group>"; };
+		BFB056A222C1B149007B57F4 /* a_a_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_a_me.png; sourceTree = "<group>"; };
+		BFB056A322C1B149007B57F4 /* override.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = override.swift; sourceTree = "<group>"; };
+		BFB056A422C1B149007B57F4 /* monika.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = monika.chr; sourceTree = "<group>"; };
+		BFB056A522C1B149007B57F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB056A722C1B149007B57F4 /* vreform_loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vreform_loop.mp3; sourceTree = "<group>"; };
+		BFB056A822C1B149007B57F4 /* ithought_loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ithought_loop.mp3; sourceTree = "<group>"; };
+		BFB056AB22C1B149007B57F4 /* monika.chr */ = {isa = PBXFileReference; lastKnownFileType = file; path = monika.chr; sourceTree = "<group>"; };
+		BFB056AC22C1B149007B57F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB056AE22C1B786007B57F4 /* Forgotten-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forgotten-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFB056AF22C1B787007B57F4 /* CharacterAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -790,6 +816,9 @@
 		BF64168222AD5EEF00596A36 /* mod_assets */ = {
 			isa = PBXGroup;
 			children = (
+				BFB056A922C1B149007B57F4 /* aliceangel.xccharacter */,
+				BFB0569022C1B149007B57F4 /* monika.xccharacter */,
+				BFB056A622C1B149007B57F4 /* music */,
 				BF39D5EA22B1D711003808F8 /* sfx */,
 				BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */,
 				BF64168322AD5EEF00596A36 /* images */,
@@ -1130,6 +1159,61 @@
 			path = characters;
 			sourceTree = "<group>";
 		};
+		BFB0569022C1B149007B57F4 /* monika.xccharacter */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0569122C1B149007B57F4 /* Resources */,
+				BFB056A322C1B149007B57F4 /* override.swift */,
+				BFB056A422C1B149007B57F4 /* monika.chr */,
+				BFB056A522C1B149007B57F4 /* Info.plist */,
+			);
+			path = monika.xccharacter;
+			sourceTree = "<group>";
+		};
+		BFB0569122C1B149007B57F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0569222C1B149007B57F4 /* oneeye.png */,
+				BFB0569322C1B149007B57F4 /* a_a.png */,
+				BFB0569422C1B149007B57F4 /* a_g.png */,
+				BFB0569522C1B149007B57F4 /* 2l.png */,
+				BFB0569622C1B149007B57F4 /* 1r.png */,
+				BFB0569722C1B149007B57F4 /* 3c.png */,
+				BFB0569822C1B149007B57F4 /* a_i_me.png */,
+				BFB0569922C1B149007B57F4 /* 3b.png */,
+				BFB0569A22C1B149007B57F4 /* 3a.png */,
+				BFB0569B22C1B149007B57F4 /* 2r.png */,
+				BFB0569C22C1B149007B57F4 /* 3e.png */,
+				BFB0569D22C1B149007B57F4 /* 1l.png */,
+				BFB0569E22C1B149007B57F4 /* 3d.png */,
+				BFB0569F22C1B149007B57F4 /* 3f.png */,
+				BFB056A022C1B149007B57F4 /* a_g_me.png */,
+				BFB056A122C1B149007B57F4 /* a_i.png */,
+				BFB056A222C1B149007B57F4 /* a_a_me.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFB056A622C1B149007B57F4 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				BFB056A722C1B149007B57F4 /* vreform_loop.mp3 */,
+				BFB056A822C1B149007B57F4 /* ithought_loop.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		BFB056A922C1B149007B57F4 /* aliceangel.xccharacter */ = {
+			isa = PBXGroup;
+			children = (
+				BFB056AF22C1B787007B57F4 /* CharacterAppDelegate.swift */,
+				BFB056AB22C1B149007B57F4 /* monika.chr */,
+				BFB056AC22C1B149007B57F4 /* Info.plist */,
+				BFB056AE22C1B786007B57F4 /* Forgotten-Bridging-Header.h */,
+			);
+			path = aliceangel.xccharacter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
@@ -1158,6 +1242,7 @@
 				TargetAttributes = {
 					BF6415B822AD5ECF00596A36 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -1291,14 +1376,23 @@
 			baseConfigurationReference = BF64178822AD5F1200596A36 /* Config.xcconfig */;
 			buildSettings = {
 				BUILD_ACTION = "$(BUILD_ACTION)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUGGING_SYMBOLS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "stein/game/mod_assets/aliceangel.xccharacter/Forgotten-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1307,11 +1401,19 @@
 			baseConfigurationReference = BF64178822AD5F1200596A36 /* Config.xcconfig */;
 			buildSettings = {
 				BUILD_ACTION = "$(RELEASE_ACTION)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "stein/game/mod_assets/aliceangel.xccharacter/Forgotten-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
