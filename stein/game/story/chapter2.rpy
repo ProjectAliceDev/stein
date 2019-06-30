@@ -270,21 +270,20 @@ label chapter_two:
     "And Sayori's doodling in her notebook, probably of everyone in the clubroom."
     "It was like as if nothing had happened at all."
     "Alice walks over to Sayonika, winking at Natsuki."
-    "Knowing how heated Natsuki was, I decide it's best to leave her be for now."
-    "That being said, I'm kind of clueless as to where to go at this point..."
-    stop music fadeout 1.5
+    
+    # Call the appropriate scene from the poem game winner.
     python:
         preferred_alice = False
         preferred_sayori = False
-    menu:
-        "Who do I want to spend time with?"
-        
-        "Yuri":
-            call chapter_two_yuri
-        "Sayori":
-            call chapter_two_sayori
-        "Alice":
-            call chapter_two_alice
+        nextscene = "chapter_two_exclusive_choice"
+        if poemwinner[0] != "natsuki":
+            if poemwinner[0] == "monika":
+                nextscene = "chapter_two_alice"
+            else:
+                nextscene = "chapter_two_" + poemwinner[0]
+
+
+    call expression nextscene
 
     # MARK: Time for Poems... Maybe
     stop music fadeout 0.75
@@ -380,6 +379,23 @@ label chapter_two:
         "I'm sure she'd text me back tomorrow or whenever she finds something out about earlier."
 
     "I put the phone back in my pocket and walk inside my house."
+    return
+
+# MARK: Chapter 3 - Exclusive Choice
+# Only executed if winner of poem game is Natsuki.
+label chapter_two_exclusive_choice:
+    "Knowing how heated Natsuki was, I decide it's best to leave her be for now."
+    "That being said, I'm kind of clueless as to where to go at this point..."
+    stop music fadeout 1.5
+    menu:
+        "Who do I want to spend time with?"
+        
+        "Yuri":
+            call chapter_two_yuri
+        "Sayori":
+            call chapter_two_sayori
+        "Alice":
+            call chapter_two_alice
     return
 
 # MARK: Chapter 3 - Yuri Time

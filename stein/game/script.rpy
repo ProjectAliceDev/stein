@@ -28,15 +28,18 @@ label start:
     if not persistent.playthrough == 1:
         if not persistent.saw_title:
             call title
+        
         call chapter_zero
         call chapter_one
+        $ chapter = 0 # Set for poem game reasons
+        call fm_poemgame(True)
+        "Poem game results: [poemwinner]"
         call chapter_two
         call chapter_three
         call chapter_three_reprise
         call ncredits
         call end_overlay
     else:
-        call monika_test
         # Checks that the JavaScript server does not cause a buffer
         # overflow. If so, call the script to end the thread.
         python:

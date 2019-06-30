@@ -1469,6 +1469,7 @@ default n_poemappeal = [0, 0, 0]
 default s_poemappeal = [0, 0, 0]
 default y_poemappeal = [0, 0, 0]
 default m_poemappeal = [0, 0, 0]
+default a_poemappeal = [0, 0, 0]
 
 # The last winner of the poem minigame.
 default poemwinner = ['sayori', 'sayori', 'sayori']
@@ -1488,6 +1489,7 @@ default n_appeal = 0
 default s_appeal = 0
 default y_appeal = 0
 default m_appeal = 0
+default a_appeal = 0
 
 # We keep track of whether we watched Natsuki's and sayori's second exclusive scenes
 # to decide whether to play them in chapter 3.

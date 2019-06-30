@@ -13,6 +13,9 @@
 		BF39D5E822B1C066003808F8 /* entrance_mod_lightsout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrance_mod_lightsout.png; sourceTree = "<group>"; };
 		BF39D5E922B1C797003808F8 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
 		BF39D5EB22B1D711003808F8 /* metalhit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metalhit.wav; sourceTree = "<group>"; };
+		BF4841FF22C804C800850E05 /* poemwords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = poemwords.txt; path = stein/game/poemwords.txt; sourceTree = SOURCE_ROOT; };
+		BF48420122C81A5400850E05 /* alice_hop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice_hop.png; sourceTree = "<group>"; };
+		BF48420222C8275400850E05 /* script-poemgame-alice.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "script-poemgame-alice.rpy"; sourceTree = "<group>"; };
 		BF5B2DFF22B15C5E00033735 /* yuri_sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_sprite_sheet.png; sourceTree = "<group>"; };
 		BF5B2E0022B15C5E00033735 /* sayonika_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sayonika_sprite_sheet.jpg; sourceTree = "<group>"; };
 		BF5B2E0122B15C5E00033735 /* alice_sprite_sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice_sprite_sheet.jpg; sourceTree = "<group>"; };
@@ -310,8 +313,6 @@
 		BF64172422AD5EEF00596A36 /* credits.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = credits.rpy; sourceTree = "<group>"; };
 		BF64172622AD5EEF00596A36 /* transforms.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transforms.rpy; sourceTree = "<group>"; };
 		BF64172822AD5EEF00596A36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BF64172C22AD5EEF00596A36 /* zz_poemgame.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zz_poemgame.rpy; sourceTree = "<group>"; };
-		BF64172E22AD5EEF00596A36 /* script-poemgame.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "script-poemgame.rpy"; sourceTree = "<group>"; };
 		BF64173122AD5EEF00596A36 /* poems_special.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poems_special.rpy; sourceTree = "<group>"; };
 		BF64173322AD5EEF00596A36 /* poems.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poems.rpy; sourceTree = "<group>"; };
 		BF64173422AD5EEF00596A36 /* gui.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gui.rpy; sourceTree = "<group>"; };
@@ -478,6 +479,7 @@
 				BF64171522AD5EEF00596A36 /* saves */,
 				BF64175C22AD5EEF00596A36 /* story */,
 				BF64174422AD5EEF00596A36 /* submods */,
+				BF4841FF22C804C800850E05 /* poemwords.txt */,
 				BF6415C922AD5EEE00596A36 /* yuri.chr */,
 				BF6415CC22AD5EEE00596A36 /* options.rpy */,
 				BF6415D622AD5EEE00596A36 /* script.rpy */,
@@ -1014,6 +1016,7 @@
 		BF64170822AD5EEF00596A36 /* chibis */ = {
 			isa = PBXGroup;
 			children = (
+				BF48420122C81A5400850E05 /* alice_hop.png */,
 				BF64170922AD5EEF00596A36 /* alice.png */,
 				BF64170A22AD5EEF00596A36 /* sayonika.png */,
 			);
@@ -1031,6 +1034,7 @@
 		BF64171822AD5EEF00596A36 /* advanced_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				BF48420222C8275400850E05 /* script-poemgame-alice.rpy */,
 				BF64171B22AD5EEF00596A36 /* console.rpy */,
 				BF64171C22AD5EEF00596A36 /* glitchtext.rpy */,
 				BF64171F22AD5EEF00596A36 /* zz_hotkey_buttons.rpy */,
@@ -1041,8 +1045,6 @@
 				BF64172422AD5EEF00596A36 /* credits.rpy */,
 				BF64172622AD5EEF00596A36 /* transforms.rpy */,
 				BF64172822AD5EEF00596A36 /* README.md */,
-				BF64172C22AD5EEF00596A36 /* zz_poemgame.rpy */,
-				BF64172E22AD5EEF00596A36 /* script-poemgame.rpy */,
 				BF64173122AD5EEF00596A36 /* poems_special.rpy */,
 				BF64173322AD5EEF00596A36 /* poems.rpy */,
 				BF64173422AD5EEF00596A36 /* gui.rpy */,
