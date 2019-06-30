@@ -308,7 +308,7 @@
 		BF64171F22AD5EEF00596A36 /* zz_hotkey_buttons.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zz_hotkey_buttons.rpy; sourceTree = "<group>"; };
 		BF64172022AD5EEF00596A36 /* cgs.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cgs.rpy; sourceTree = "<group>"; };
 		BF64172122AD5EEF00596A36 /* poemwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poemwords.txt; sourceTree = "<group>"; };
-		BF64172222AD5EEF00596A36 /* definitions.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = definitions.rpy; sourceTree = "<group>"; };
+		BF64172222AD5EEF00596A36 /* definitions.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 2; path = definitions.rpy; sourceTree = "<group>"; };
 		BF64172322AD5EEF00596A36 /* effects.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = effects.rpy; sourceTree = "<group>"; };
 		BF64172422AD5EEF00596A36 /* credits.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = credits.rpy; sourceTree = "<group>"; };
 		BF64172622AD5EEF00596A36 /* transforms.rpy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transforms.rpy; sourceTree = "<group>"; };
