@@ -50,7 +50,7 @@ label chapter_two:
     "Suddenly, I feel my phone vibrate."
     "I pick it up and view the notification that pops up."
     "It's from Natsuki."
-    $ messages.receive("Natsuki", "Get your ass to the big classroom. There's something you need to see.")
+    $ messages.receiveMessage("Natsuki", "Get your ass to the big classroom. There's something you need to see.")
     mc "Natsuki texted me."
     mc "We need to head to the big classroom."
     show sayonika at f21
@@ -369,7 +369,7 @@ label chapter_two:
 
     if preferred_alice:
         "I see a single notification."
-        $ messages.receive("Alice", "Thanks for the fun time today! .^_~")
+        $ messages.receiveMessage("Alice", "Thanks for the fun time today! .^_~")
         "Well, that wasn't the notification I was expecting."
         "I'm guessing she'll text me later if she finds out anything."
         "Oh boy. What have I gotten myself into?"

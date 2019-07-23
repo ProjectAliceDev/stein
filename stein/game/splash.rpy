@@ -258,7 +258,9 @@ label splashscreen:
             open(filepath, "a").close()
 
 
-    call bootloader
+    $ ASBootloader.boot(timeout=1.5, disclaimer="""
+[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato or Joey Drew Studios and is not an official Bendy and the Ink Machine product. It is designed to be played only after the official game(s) has/have been completed, and contains spoilers for the official game(s). Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe.
+    """)
 
     python:
         basedir = config.basedir.replace('\\', '/')

@@ -14,15 +14,15 @@ label chapter_three:
     "I don't take long getting ready, usually taking only about 10 minutes."
     "Once I finish, I take a look at my phone to see if Alice had texted me."
     "Luckily, she did text me, but it looks like it was very recent."
-    $ messages.receive("Alice", "Hey, did you want to join me in heading out? Could use time to talk about investigation. .^_~")
+    $ messages.receiveMessage("Alice", "Hey, did you want to join me in heading out? Could use time to talk about investigation. .^_~")
     "Well, I guess there's nothing wrong with that."
     "I text her back: 'Sure, when?'"
     "Surprisingly, she responds back in an instant."
-    $ messages.receive("Alice", "Two minutes? Idk, unsure of how long it takes for you to get already.")
+    $ messages.receiveMessage("Alice", "Two minutes? Idk, unsure of how long it takes for you to get already.")
     "Wait, what?"
     "She doesn't live that close by, and it takes a couple of minutes by car to get here..."
     "I try to get an answer: '???'"
-    $ messages.receive("Alice", "Ngl, already here. .^_~")
+    $ messages.receiveMessage("Alice", "Ngl, already here. .^_~")
     "Wha?"
     "How? How is she here already?"
     "I take a peek out of the window."
@@ -410,7 +410,7 @@ label chapter_three:
     "I feel a buzz from my back pockets."
     mc "Hold up."
     "I grab my phone and look at the lock screen."
-    $ messages.receive("Sayori", "I can't remember if we had dinner plans.")
+    $ messages.receiveMessage("Sayori", "I can't remember if we had dinner plans.")
     mc "Heh."
     mc "Apparently Sayori doesn't know either."
     show alice at f22
@@ -418,7 +418,7 @@ label chapter_three:
     show alice at t22
     "I reply back to Sayori as per Alice's suggestion."
     "It doesn't take long for Sayori to respond. She's got speedy fingers."
-    $ messages.receive("Sayori", "That sounds lovely. Any way to get food in my stomach is great rn.")
+    $ messages.receiveMessage("Sayori", "That sounds lovely. Any way to get food in my stomach is great rn.")
     mc "Well, looks like that's a yes."
     show alice at f22
     a 1k "Oh, good!"

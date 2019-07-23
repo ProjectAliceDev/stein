@@ -33,7 +33,6 @@ label start:
         call chapter_one
         $ chapter = 0 # Set for poem game reasons
         call fm_poemgame(True)
-        "Poem game results: [poemwinner]"
         call chapter_two
         call chapter_three
         call chapter_three_reprise
@@ -51,7 +50,7 @@ label start:
             call end_js_32
 
         stop music
-        call screen ThrowASError(glitchtext(32))
+        $ ASHalt.halt(glitchtext(32))
         $ renpy.utter_restart()
 
     return

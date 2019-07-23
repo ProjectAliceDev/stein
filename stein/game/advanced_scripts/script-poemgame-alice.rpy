@@ -189,7 +189,7 @@ label fm_poemgame(transition=True):
     $ allow_skipping = False
 
     if persistent.playthrough == 0 and chapter == 0:
-        call screen alert("Let's write a poem.", "Pick words you think your favorite club member, current or honorary, will like. Something good might happen with whoever likes your poem the most!", ok_action=Return())
+        call screen ASNotificationAlert("Let's write a poem.", "Pick words you think your favorite club member, current or honorary, will like. Something good might happen with whoever likes your poem the most!")
     python:
         poemgame_glitch = False
         played_baa = False
