@@ -1,7 +1,10 @@
 
 .DS_Store
 errors.txt
-*.rpa
+images.rpa
+scripts.rpa
+audio.rpa
+fonts.rpa
 game/cache/bytecode.rpyb
 game/cache/pyanalysis.rpyb
 game/cache/screens.rpyb

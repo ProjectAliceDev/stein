@@ -396,6 +396,7 @@ screen quick_menu():
             textbutton _("Load") action ShowMenu('load')
             #textbutton _("Q.Save") action QuickSave()
             #textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Desktop") action ShowTransient("ASDesktopShellView")
             textbutton _("Settings") action ShowMenu('preferences')
 
 
