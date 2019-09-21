@@ -1,0 +1,53 @@
+# Set the name of the workflow here
+name: Lint Mod
+
+# Specify when to run this workflow
+on:
+
+  # We want this to run on every push
+  push:
+    branches:
+      - '*'
+
+  # We also want it to run when we publish a release on GitHub
+  release:
+    types: [published]
+
+# Write the jobs and its steps
+# This is where things get interesting.
+jobs:
+  build:
+    name: Build with Ren'Py SDK
+    runs-on: ubuntu-latest
+
+    # Here's where we starting telling it how to run the workflow.
+    steps:
+
+      # First we clone the repo
+      - name: Clone repository
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 50
+
+      # Now we need to set up where the mod will be and how to run the action.
+      # This setup may vary depending on the structure of the DDLC mod.
+      # We'll already be in the repository's root by default.
+      - name: Set up mod for build
+        shell: bash
+        run: |
+          mkdir mod
+          rm -rf stein/README.html && cp -vRf stein/* mod/
+          script/inject_version.sh
+      # Now it's time to get the DDLC archives.
+      - name: Download DDLC archives
+        uses: Sayo-nika/mc-action@master
+
+      # Let's make sure our code works by running the linter.
+      - name: Lint DDLC Mod
+        uses: ProjectAliceDev/renpy-lint-action@v1.1.0
+        with:
+          sdk-version: '6.99.12.4'
+          project-dir: mod
+        env:
+          SDL_AUDIODRIVER: dummy
+          SDL_VIDEODRIVER: dummy

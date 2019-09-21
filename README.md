@@ -1,6 +1,6 @@
 # Forgotten (Project Stein)
 
-[![Build Status](https://travis-ci.com/ProjectAliceDev/stein.svg?branch=master)](https://travis-ci.com/ProjectAliceDev/stein) [![AliceOS 1.0.0beta2](https://img.shields.io/badge/aliceos-1.0.0beta2-yellow.svg)](https://github.com/ProjectAliceDev/aliceos) [![Sayonika Quickstart Template](https://img.shields.io/badge/quickstart--oss-1.0.2-orange.svg)](https://github.com/Sayo-nika/quickstart-oss) [![GitHub](https://img.shields.io/github/license/projectalicedev/stein.svg)](LICENSE) ![Xcode 9.3+ supported](https://img.shields.io/badge/xcode-9.3%2B-blue.svg)
+[![Build Status](https://github.com/ProjectAliceDev/stein/workflows/Build%20Mod/badge.svg)](https://github.com/ProjectAliceDev/stein/actions) [![AliceOS 2.0.0](https://img.shields.io/badge/aliceos-prospect%20park-yellow.svg)](https://github.com/ProjectAliceDev/aliceos) [![GitHub](https://img.shields.io/github/license/projectalicedev/stein.svg)](LICENSE) ![Xcode 9.3+ supported](https://img.shields.io/badge/xcode-9.3%2B-blue.svg)
 
 ![Main menu](menu.png)
 
